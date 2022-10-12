@@ -1,0 +1,9 @@
+.page {
+  background-color: #E5E5E5;;
+  color: #242424;
+  max-width: 1440px;
+  min-width: 414px;
+  min-height: 100vh;
+  margin: 0 auto;
+  font-family: "Neue Machina", Times, serif;
+}
