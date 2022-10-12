@@ -5,5 +5,8 @@
   min-width: 414px;
   min-height: 100vh;
   margin: 0 auto;
-  font-family: "Neue Machina", Times, serif;
+  font-family: "Formular", Times, serif;
 }
+
+/* Formular используется для основного текста,
+для заголовков нужно будет прописать Neue Machina отдельно*/
