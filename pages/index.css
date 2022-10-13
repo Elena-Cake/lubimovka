@@ -65,7 +65,11 @@
 
 
 /* reference */
-
+@import url(../blocks/reference/reference.css);
+@import url(../blocks/reference/__container/reference__container.css);
+@import url(../blocks/reference/__description/reference__description.css);
+@import url(../blocks/reference/__link/reference__link.css);
+@import url(../blocks/reference/__link-icon/reference__link-icon.css);
 
 
 /* cooperation */

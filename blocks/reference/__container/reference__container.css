@@ -1,0 +1,7 @@
+.reference__container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25.25%;
+  padding-right: 18.75%;
+  padding-top: 20px;
+}
