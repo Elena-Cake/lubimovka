@@ -6,4 +6,5 @@
   font-size: 72px;
   line-height: 70px;
   margin: 0;
+  grid-area: title;
 }
