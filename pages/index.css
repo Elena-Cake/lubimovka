@@ -2,3 +2,7 @@
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/section-title/section-title.css);
+
+@import url(../blocks/galary-photo/galary-photo.css);
+@import url(../blocks/galary-photo/__item/galary-photo__item.css);
