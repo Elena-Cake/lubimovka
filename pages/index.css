@@ -1,3 +1,4 @@
+
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
@@ -11,10 +12,10 @@
 
 
 /* intro */
-
-
-
-
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__paragraph/intro__paragraph.css);
+@import url(../blocks/intro/__picture/intro__picture.css);
 
 /* about */
 @import url(../blocks/about/about.css);

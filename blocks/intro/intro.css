@@ -1,0 +1,12 @@
+.intro {
+  display: grid;
+  column-gap: 120px;
+  row-gap: 65px;
+  grid-template-columns: minmax(300px, 420px) minmax(300px, 720px);
+  grid-template-areas:
+  '. title'
+  'paragraph image'
+  '. image';
+  justify-content: end;
+  justify-items: start;
+}
