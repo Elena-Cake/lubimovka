@@ -24,16 +24,13 @@
 
 
 /* video */
-
-
-
-
-/* video-two */
-
-
-
-
-/* video-three */
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__item/video__item.css);
+@import url(../blocks/video/__description/video__description.css);
+@import url(../blocks/videos/videos.css);
+@import url(../blocks/videos/__list/videos__list.css);
+@import url(../blocks/videos/__list-item/videos__list-item.css);
+@import url(../blocks/videos/__item/videos__item.css);
 
 
 

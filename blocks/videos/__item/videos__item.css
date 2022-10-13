@@ -1,0 +1,7 @@
+.videos__item {
+  aspect-ratio: 16 / 9;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 420px;
+}
