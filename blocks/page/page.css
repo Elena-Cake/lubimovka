@@ -6,6 +6,8 @@
   min-height: 100vh; /*БЗ: может, просто height: 100%?*/
   margin: 0 auto;
   font-family: "Formular", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Formular используется для основного текста,
