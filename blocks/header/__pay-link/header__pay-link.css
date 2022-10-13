@@ -1,0 +1,12 @@
+.header__pay-link {
+  height: 24px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #242424;
+  padding: 0 10.1px;
+  align-self: flex-end;
+  margin: 0 0 12px 18px;
+}
