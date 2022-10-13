@@ -1,0 +1,7 @@
+.play__cart {
+    width: 100%;
+    min-height: 300px;
+    background-color: #B7C09D;
+    display: grid;
+    grid-template-rows: auto 60px 60px;
+}

@@ -1,0 +1,10 @@
+.play__items {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    gap: 30px;
+    max-width: 1320px;
+    width: 1320px;
+    grid-template-columns: repeat(5, 1fr);
+}
