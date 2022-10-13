@@ -1,0 +1,3 @@
+.about__title {
+    margin-left: calc(100% * (360/1440));
+}
