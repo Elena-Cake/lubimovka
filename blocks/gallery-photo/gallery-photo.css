@@ -1,9 +1,0 @@
-.gallery-photo {
-  list-style: none;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(359px, 1fr));
-  gap: 1px;
-  grid-template-rows: auto;
-  margin: 42px auto 0;
-}
