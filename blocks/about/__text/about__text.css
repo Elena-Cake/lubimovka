@@ -1,0 +1,4 @@
+.about__text {
+    width: 509px;
+    margin-left: calc(100% * (420/1440));
+}
