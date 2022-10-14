@@ -5,6 +5,7 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_place/section-title_place_about.css);
 @import url(../blocks/section-title/_place/section-title_place_reference.css);
 @import url(../blocks/section-text/section-text.css);
 
