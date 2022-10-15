@@ -1,0 +1,8 @@
+.play__link {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px 18px;
+    border-top: #242424 1px solid;
+    /* display: none; */
+}

@@ -1,0 +1,5 @@
+.intro__picture {
+  max-width: 720px;
+  max-height: 445px;
+  grid-area: image;
+}

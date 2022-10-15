@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -39,7 +40,9 @@
   <main class="main">
     <!-- Соня -->
     <section class="intro">
-
+      <h1 class="intro__title">Любимовка. Ещё</h1>
+      <p class="intro__paragraph">Межсезонные читки и обсуждение пьес из списка отмеченных отборщиками Любимовки.</p>
+      <img class="intro__picture" src="./images/intro-audience.jpg">
     </section>
     <!-- Лена -->
     <section class="about">
@@ -48,17 +51,28 @@
             За первый сезон проекта организаторы провели 17 мероприятий вместе с режиссёрами и актёрами московских театров: Театра.doc, Театрального Центра им. Вс. Мейерхольда, Гоголь-центра, Электротеатра «Станиславский», Ленкома.
         </p>
     </section>
-    <!-- Костя -->
+<!-- Костя -->
     <section class="video">
-
-    </section>
-    <!-- Костя -->
-    <section class="video-two">
-
-    </section>
-    <!-- Костя -->
-    <section class="video-three">
-
+      <div class="video__container video__container_type_extended">
+        <h2 class="section-title">Заголовок блока с видео</h2>
+        <iframe class="video__item video__item_size_l" src="https://www.youtube.com/embed/QA1zJgtkPbA" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        <p class="video__description section-text">Из этого следует два вывода: с одной стороны, искусство не должно быть равно реальности, потому что иначе оно не будет искусством, с другой стороны – оно должно быть все-таки подобно реальности, иначе мы ничего не поймем, не подключимся и не распознаем замыслы автора. Мне нравится такое определение, что один из видов эстетики – это, грубо говоря, "понимание" чего-то. Если нам нечего понимать, то мы не получим ни удовольствия, ни какого-то чувства, ничего. А для того, чтобы что-то понять, нам должно быть представлено что-то, что не равно само себе. То есть нам показывают или говорят что-то, а мы понимаем, что там есть что-то еще. Вот мы смотрим на античную статую и понимаем, что это – статуя, но похожа на человека. Если она будет абсолютно такая же как человек, как восковая фигура, то мы поймем, что это уже не искусство. Искусство для того, чтобы люди догадались, домыслили, дочувствовали что-то.</p>
+      </div>
+      <div class="video__container video__container_type_simple">
+        <h2 class="section-title">Заголовок блока с двумя видео</h2>
+        <ul class="video__list">
+          <li class="video__list-item"><iframe class="video__item video__item_size_s" src="https://www.youtube.com/embed/QA1zJgtkPbA" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></li>
+          <li class="video__list-item"><iframe class="video__item video__item_size_s" src="https://www.youtube.com/embed/QA1zJgtkPbA" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></li>
+        </ul>
+      </div>
+      <div class="video__container video__container_type_simple">
+        <h2 class="section-title">Заголовок блока с тремя видео</h2>
+        <ul class="video__list">
+          <li class="video__list-item"><iframe class="video__item video__item_size_s" src="https://www.youtube.com/embed/QA1zJgtkPbA" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></li>
+          <li class="video__list-item"><iframe class="video__item video__item_size_s" src="https://www.youtube.com/embed/QA1zJgtkPbA" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></li>
+          <li class="video__list-item"><iframe class="video__item video__item_size_s" src="https://www.youtube.com/embed/QA1zJgtkPbA" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></li>
+        </ul>
+      </div>
     </section>
     <!-- Соня -->
     <section class="gallery">
@@ -88,7 +102,84 @@
     </section>
     <!-- Лена -->
     <section class="play">
-
+        <h2 class="play__title section-title">Заголовок блока с пьесами</h2>
+        <ul class="play__items">
+            <li class="play__item">
+                <div class="play__cart">
+                    <h3 class="play__name">Солнечная линия</h3>
+                    <a class="play__link play__look-link" href="#">
+                        <p class="play__link-text">СМОТРЕТЬ ЧИТКУ</p>
+                        <div class="play__arrow play__arrow_direction_right"></div>
+                    </a>
+                    <a class="play__link play__download-link" href="#">
+                        <p class="play__link-text">СКАЧАТЬ ПЬЕСУ</p>
+                        <div class="play__arrow play__arrow_direction_bottom"></div>
+                    </a>
+                </div>
+                <p class="play__actor">Екатерина Августеняк</p>
+                <p class="play__place">Санкт-Петербург 2020</p>
+            </li>
+            <li class="play__item">
+                <div class="play__cart">
+                    <h3 class="play__name">МАМА</h3>
+                    <a class="play__link play__look-link" href="#">
+                        <p class="play__link-text">СМОТРЕТЬ ЧИТКУ</p>
+                        <div class="play__arrow play__arrow_direction_right"></div>
+                    </a>
+                    <a class="play__link play__download-link" href="#">
+                        <p class="play__link-text">СКАЧАТЬ ПЬЕСУ</p>
+                        <div class="play__arrow play__arrow_direction_bottom"></div>
+                    </a>
+                </div>
+                <p class="play__actor">Екатерина Августеняк</p>
+                <p class="play__place">Санкт-Петербург 2020</p>
+            </li>
+            <li class="play__item">
+                <div class="play__cart">
+                    <h3 class="play__name">Конкретные разговоры пожилых супругов ни о чём</h3>
+                    <a class="play__link play__look-link" href="#">
+                        <p class="play__link-text">СМОТРЕТЬ ЧИТКУ</p>
+                        <div class="play__arrow play__arrow_direction_right"></div>
+                    </a>
+                    <a class="play__link play__download-link" href="#">
+                        <p class="play__link-text">СКАЧАТЬ ПЬЕСУ</p>
+                        <div class="play__arrow play__arrow_direction_bottom"></div>
+                    </a>
+                </div>
+                <p class="play__actor">Екатерина Августеняк</p>
+                <p class="play__place">Санкт-Петербург 2020</p>
+            </li>
+            <li class="play__item">
+                <div class="play__cart">
+                    <h3 class="play__name">Опус ДНК</h3>
+                    <a class="play__link play__look-link" href="#">
+                        <p class="play__link-text">СМОТРЕТЬ ЧИТКУ</p>
+                        <div class="play__arrow play__arrow_direction_right"></div>
+                    </a>
+                    <a class="play__link play__download-link" href="#">
+                        <p class="play__link-text">СКАЧАТЬ ПЬЕСУ</p>
+                        <div class="play__arrow play__arrow_direction_bottom"></div>
+                    </a>
+                </div>
+                <p class="play__actor">Екатерина Августеняк</p>
+                <p class="play__place">Санкт-Петербург 2020</p>
+            </li>
+            <li class="play__item">
+                <div class="play__cart">
+                    <h3 class="play__name">МАМА</h3>
+                    <a class="play__link play__look-link" href="#">
+                        <p class="play__link-text">СМОТРЕТЬ ЧИТКУ</p>
+                        <div class="play__arrow play__arrow_direction_right"></div>
+                    </a>
+                    <a class="play__link play__download-link" href="#">
+                        <p class="play__link-text">СКАЧАТЬ ПЬЕСУ</p>
+                        <div class="play__arrow play__arrow_direction_bottom"></div>
+                    </a>
+                </div>
+                <p class="play__actor">Екатерина Августеняк</p>
+                <p class="play__place">Санкт-Петербург 2020</p>
+            </li>
+        </ul>
     </section>
     <!-- Саша -->
     <section class="persons">
@@ -96,11 +187,27 @@
     </section>
     <!-- Костя -->
     <section class="reference">
-
+      <h2 class="section-title section-title_place_reference">Заголовок блока с&nbsp;кнопкой/ссылкой</h2>
+      <div class="reference__container">
+        <p class="reference__description">Видео прошедших мероприятий можно посмотреть в плейлисте на канале Любимовки в YouTube</p>
+        <a class="reference__link" href="https://www.youtube.com/channel/UCDZ1HTzBVBxm_vw6tV7C3lg" target="_blank"><span class="reference__link-name">Youtube</span><svg class="reference__link-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"></svg></a>
+      </div>
     </section>
     <!-- Боря -->
-    <section class="cooperation">
-
+    <section class="cooperation"> <!--CHECK: при сборке десктопа проверить паддинги секции-->
+      <div class="cooperation__asterisk"></div>
+      <h2 class="section-title cooperation__title">Проект открыт к&nbsp;сотрудничеству</h2>
+      <div class="section-text cooperation__text">
+        <p class="cooperation__paragraph">
+          Мы находимся в постоянном поиске режиссёров и актеров, заинтересованных в постановке читок.
+        </p>
+        <p class="cooperation__paragraph">
+          Пишите на
+          <a href="mailto:more@lubimovka.ru?subject=Сотрудничество с проектом 'Любимовка'" class="cooperation__link">
+            more@lubimovka.ru <!--TODO: hover-->
+          </a>
+        </p>
+      </div>
     </section>
   </main>
   <!-- Боря -->

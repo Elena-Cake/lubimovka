@@ -1,0 +1,5 @@
+.video__description {
+  font-feature-settings: 'ss01' on;
+  width: 50%;
+  margin: 0 auto;
+}
