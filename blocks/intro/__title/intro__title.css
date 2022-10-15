@@ -1,0 +1,10 @@
+.intro__title {
+  max-width: 450px;
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 70px;
+  margin: 0;
+  grid-area: title;
+}

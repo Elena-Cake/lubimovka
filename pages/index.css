@@ -1,11 +1,14 @@
+
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/section-title/section-title.css);
+
 @import url(../blocks/section-title/_place/section-title_place_perfomances.css);
 @import url(../blocks/section-title/_place/section-title_place_perfomances-inline-container.css);
+@import url(../blocks/section-title/_place/section-title_place_reference.css);
 @import url(../blocks/section-text/section-text.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/__arrow-image/link__arrow-image.css);
@@ -15,10 +18,10 @@
 
 
 /* intro */
-
-
-
-
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__paragraph/intro__paragraph.css);
+@import url(../blocks/intro/__picture/intro__picture.css);
 
 /* about */
 @import url(../blocks/about/about.css);
@@ -28,17 +31,16 @@
 
 
 /* video */
-
-
-
-
-/* video-two */
-
-
-
-
-/* video-three */
-
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__container/video__container.css);
+@import url(../blocks/video/__container/_type/video__container_type_extended.css);
+@import url(../blocks/video/__container/_type/video__container_type_simple.css);
+@import url(../blocks/video/__item/video__item.css);
+@import url(../blocks/video/__item/_size/video__item_size_s.css);
+@import url(../blocks/video/__item/_size/video__item_size_l.css);
+@import url(../blocks/video/__description/video__description.css);
+@import url(../blocks/video/__list/video__list.css);
+@import url(../blocks/video/__list-item/video__list-item.css);
 
 
 
@@ -76,19 +78,38 @@
 
 
 /* play */
-
-
+@import url(../blocks/play/play.css);
+@import url(../blocks/play/__title/play__title.css);
+@import url(../blocks/play/__items/play__items.css);
+@import url(../blocks/play/__item/play__item.css);
+@import url(../blocks/play/__cart/play__cart.css);
+@import url(../blocks/play/__name/play__name.css);
+@import url(../blocks/play/__actor/play__actor.css);
+@import url(../blocks/play/__place/play__place.css);
+@import url(../blocks/play/__link/play__link.css);
+@import url(../blocks/play/__link-text/play__link-text.css);
+@import url(../blocks/play/__arrow/play__arrow.css);
+@import url(../blocks/play/__arrow/_direction/play__arrow_direction_right.css);
+@import url(../blocks/play/__arrow/_direction/play__arrow_direction_bottom.css);
 
 /* persons */
 
 
 
 /* reference */
-
+@import url(../blocks/reference/reference.css);
+@import url(../blocks/reference/__container/reference__container.css);
+@import url(../blocks/reference/__description/reference__description.css);
+@import url(../blocks/reference/__link/reference__link.css);
+@import url(../blocks/reference/__link-icon/reference__link-icon.css);
 
 
 /* cooperation */
-
-
+@import url(../blocks/cooperation/cooperation.css);
+@import url(../blocks/cooperation/__asterisk/cooperation__asterisk.css);
+@import url(../blocks/cooperation/__title/cooperation__title.css);
+@import url(../blocks/cooperation/__text/cooperation__text.css);
+@import url(../blocks/cooperation/__paragraph/cooperation__paragraph.css);
+@import url(../blocks/cooperation/__link/cooperation__link.css);
 
 /* footer */

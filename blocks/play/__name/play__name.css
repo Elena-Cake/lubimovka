@@ -1,0 +1,10 @@
+.play__name {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    width: calc(100% * (185/240));
+    margin: 24px auto auto;
+}
