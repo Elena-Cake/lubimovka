@@ -4,7 +4,11 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_place/section-title_place_perfomances.css);
+@import url(../blocks/section-title/_place/section-title_place_perfomances-inline-container.css);
 @import url(../blocks/section-text/section-text.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/__arrow-image/link__arrow-image.css);
 
 /* header */
 
@@ -52,7 +56,23 @@
 
 
 /* perfomances */
-
+@import url(../blocks/perfomances/perfomances.css);
+@import url(../blocks/perfomances/__container/perfomances__container.css);
+@import url(../blocks/perfomances/__container/_inline-content/perfomances__container_inline-content.css);
+@import url(../blocks/perfomances/__list/perfomances__list.css);
+@import url(../blocks/perfomances/__item/perfomances__item.css);
+@import url(../blocks/perfomances/__list/_qty/perfomances__list_qty_two.css);
+@import url(../blocks/perfomance-card/perfomance-card.css);
+@import url(../blocks/perfomance-card/__image/perfomance-card__image.css);
+@import url(../blocks/perfomance-card/__info/perfomance-card__info.css);
+@import url(../blocks/perfomance-card/__datetime/perfomance-card__datetime.css);
+@import url(../blocks/perfomance-card/__date/perfomance-card__date.css);
+@import url(../blocks/perfomance-card/__title/perfomance-card__title.css);
+@import url(../blocks/perfomance-card/__authors/perfomance-card__authors.css);
+@import url(../blocks/perfomance-card/__author/perfomance-card__author.css);
+@import url(../blocks/perfomance-card/__paragraph/perfomance-card__paragraph.css);
+@import url(../blocks/perfomance-card/__links/perfomance-card__links.css);
+@import url(../blocks/perfomance-card/__link/perfomance-card__link.css);
 
 
 /* play */

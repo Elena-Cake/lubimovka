@@ -1,0 +1,6 @@
+.perfomance-card__links {
+  grid-area: links;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
