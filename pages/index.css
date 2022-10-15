@@ -19,6 +19,7 @@
 @import url(../blocks/header/__return-link-arrow/header__return-link-arrow.css);
 @import url(../blocks/header/__links/_site-navigation/header__links_site-navigation.css);
 @import url(../blocks/header/__links/_social/header__links_social.css);
+@import url(../blocks/header/__dagger/header__dagger.css);
 
 
 /* intro */
