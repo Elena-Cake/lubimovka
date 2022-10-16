@@ -1,0 +1,14 @@
+.perfomance-card__link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 154px;
+  min-height: 2rem;
+  border-left: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+

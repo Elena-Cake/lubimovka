@@ -1,0 +1,12 @@
+.perfomance-card {
+  width: 420px;
+  position: relative;
+  display: grid;
+  grid-template: repeat(4, auto) / 120px 1fr;
+  column-gap: 31px;
+  grid-template-areas:
+  "image info"
+  "image info"
+  "image info"
+  ". links";
+}

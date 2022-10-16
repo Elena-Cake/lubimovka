@@ -1,0 +1,6 @@
+.perfomances__list_qty_two {
+  column-gap: 118px;
+}
+.perfomances__list_qty_two .perfomances__item:not(:last-of-type)::after {
+  right: -59px;
+}

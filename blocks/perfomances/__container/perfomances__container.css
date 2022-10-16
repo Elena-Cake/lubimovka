@@ -1,0 +1,3 @@
+.perfomances__container:not(:last-of-type) {
+  margin-bottom: 129px;
+}
