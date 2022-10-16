@@ -129,3 +129,23 @@
 @import url(../blocks/cooperation/__link/cooperation__link.css);
 
 /* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/logo.css);
+@import url(../blocks/footer/__partners/footer__partners.css);
+@import url(../blocks/footer/__partners-heading/footer__partners-heading.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__links/_content/footer__links_content_partners.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__address-heading/footer__address-heading.css);
+@import url(../blocks/footer/__address-text/footer__address-text.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
+@import url(../blocks/footer/__site-navigation/footer__site-navigation.css);
+@import url(../blocks/footer/__fest-description/footer__fest-description.css);
+@import url(../blocks/footer/__projects/footer__projects.css);
+@import url(../blocks/footer/__copyright/copyright.css);
+@import url(../blocks/footer/__authors/footer__authors.css);
+@import url(../blocks/footer/__authors-designers/footer__authors-designers.css);
+@import url(../blocks/footer/__authors-developers/footer__authors-developers.css);
+@import url(../blocks/footer/__icon-decorative/footer__icon-decorative.css);
+@import url(../blocks/footer/__text/footer__text.css);

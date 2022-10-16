@@ -1,7 +1,7 @@
 .cooperation {
   margin: 0;
-  margin-right: calc(100% * (222/1440));
-  margin-left: calc(100% * (665/1440));
+  margin-right: calc(100% * (222 / 1440));
+  margin-left: calc(100% * (665 / 1440));
   padding: 74px 0 169px;
   display: flex;
   flex-direction: column;

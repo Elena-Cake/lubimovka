@@ -1,0 +1,8 @@
+.footer__navigation {
+  grid-area: navigation;
+  display: grid;
+  grid-template-columns: 81px 87px 212px;
+  grid-template-areas:
+    'site fest projects';
+  justify-content: space-between;
+}

@@ -1,0 +1,6 @@
+.footer__links_content_partners {
+  display: flex;
+  flex-direction: row;
+  column-gap: 29px;
+  margin: 6px 0 0;
+}
