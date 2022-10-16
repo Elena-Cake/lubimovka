@@ -1,0 +1,4 @@
+.footer__partners {
+  grid-area: partners;
+  display: flex;
+}

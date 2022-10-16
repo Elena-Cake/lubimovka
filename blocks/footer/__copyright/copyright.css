@@ -1,0 +1,6 @@
+.footer__copyright {
+  padding-top: 35px;
+  grid-area: copyright;
+  display: flex;
+  column-gap: 32px;
+}
