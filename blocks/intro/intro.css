@@ -1,5 +1,4 @@
 .intro {
-  padding-top: 57px;
   display: grid;
   column-gap: 120px;
   row-gap: 65px;
@@ -10,4 +9,5 @@
   '. image';
   justify-content: end;
   justify-items: start;
+  padding-top: 57px;
 }
