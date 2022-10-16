@@ -1,0 +1,9 @@
+.header {
+  max-width: 1440px;
+  min-height: 60.5px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #242424;
+  position: relative;
+  /* overflow: hidden; */
+}
