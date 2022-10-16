@@ -1,0 +1,7 @@
+.header__dagger {
+  width: 25px;
+  height: 25px;
+  background-image: url(../../../images/icon-adding-button.svg);
+  background-position: center;
+  background-size: cover;
+}

@@ -1,0 +1,18 @@
+.header__return-link {
+  height: 21px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: right;
+  color: #242424;
+  position: absolute;
+  bottom: -65px;
+  left: 31px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-right:  1px solid #242424;
+  border-bottom:  1px solid #242424;
+  display: flex;
+}
