@@ -3,4 +3,5 @@
   grid-area: authors;
   display: flex;
   justify-content:flex-end;
+  column-gap: 2px;
 }
