@@ -3,5 +3,6 @@
   max-width: 146px;
   font-weight: 300;
   font-size: 14px;
+  font-style: inherit;
   line-height: calc(17 / 14 * 100%);
 }
