@@ -8,3 +8,9 @@
   margin: 0;
   grid-area: title;
 }
+
+@media screen and (min-width: 1440px) {
+  .intro__title {
+    font-size: 72px;
+  }
+}
