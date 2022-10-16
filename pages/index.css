@@ -72,7 +72,13 @@
 @import url(../blocks/play/__arrow/_direction/play__arrow_direction_bottom.css);
 
 /* persons */
-
+@import url(../blocks/persons/persons.css);
+@import url(../blocks/persons/__title/persons__title.css);
+@import url(../blocks/persons/__cards/persons__cards.css);
+@import url(../blocks/persons/__card/persons__card.css);
+@import url(../blocks/persons/__photo/persons__photo.css);
+@import url(../blocks/persons/__name/persons__name.css);
+@import url(../blocks/persons/__subtitle/persons__subtitle.css);
 
 
 /* reference */
