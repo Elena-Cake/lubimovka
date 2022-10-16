@@ -1,0 +1,8 @@
+.header__return-link-arrow {
+  height: 25px;
+  width: 25px;
+  margin-left: 4px;
+  background-image: url(../../../images/icon-arrow-left.svg);
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
