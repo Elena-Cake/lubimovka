@@ -1,0 +1,9 @@
+.video__item-picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  opacity: .5;
+  border: none;
+}

@@ -1,0 +1,23 @@
+.video__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 64px;
+  height: 64px;
+  border: none;
+  padding: none;
+  border-radius: 50%;
+  background-color: #ECEBE8;
+  background-image: url('../../../images/video-play-icon.svg');
+  background-repeat: no-repeat;
+  background-position: 55%, 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: all .2s linear;
+  display: none;
+}
+
+.video__button:focus {
+  transform: translate(-50%, -50%) scale(1.1);
+  outline: none;
+}

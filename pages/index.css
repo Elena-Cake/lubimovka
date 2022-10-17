@@ -40,13 +40,15 @@
 
 
 /* video */
-@import url(../blocks/video/video.css);
 @import url(../blocks/video/__container/video__container.css);
 @import url(../blocks/video/__container/_type/video__container_type_extended.css);
 @import url(../blocks/video/__container/_type/video__container_type_simple.css);
 @import url(../blocks/video/__item/video__item.css);
+@import url(../blocks/video/__item/_enabled/video__item_enabled.css);
 @import url(../blocks/video/__item/_size/video__item_size_s.css);
 @import url(../blocks/video/__item/_size/video__item_size_l.css);
+@import url(../blocks/video/__item-picture/video__item-picture.css);
+@import url(../blocks/video/__button/video__button.css);
 @import url(../blocks/video/__description/video__description.css);
 @import url(../blocks/video/__list/video__list.css);
 @import url(../blocks/video/__list-item/video__list-item.css);
