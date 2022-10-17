@@ -5,7 +5,7 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/section-title/section-title.css);
-
+@import url(../blocks/section-title/_place/section-title_place_about.css);
 @import url(../blocks/section-title/_place/section-title_place_perfomances.css);
 @import url(../blocks/section-title/_place/section-title_place_perfomances-inline-container.css);
 @import url(../blocks/section-title/_place/section-title_place_reference.css);
@@ -35,7 +35,6 @@
 
 /* about */
 @import url(../blocks/about/about.css);
-@import url(../blocks/about/__title/about__title.css);
 @import url(../blocks/about/__text/about__text.css);
 
 
