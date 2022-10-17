@@ -1,6 +1,12 @@
 .video__item {
+  position: relative;
   aspect-ratio: 16 / 9;
   border: none;
   margin: 0;
   padding: 0;
+  background-color: #000;
+}
+
+.video__item:hover .video__button {
+  transform: translate(-50%, -50%) scale(1.1);
 }
