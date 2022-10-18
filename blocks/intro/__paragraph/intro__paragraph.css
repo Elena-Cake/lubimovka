@@ -28,13 +28,3 @@
     line-height: 24px;
   }
 }
-
-.intro__paragraph-mobile {
-  display: none;
-}
-
-@media screen and (max-width: 767px) {
-  .intro__paragraph-mobile {
-    display: contents;
-  }
-}

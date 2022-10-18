@@ -31,6 +31,7 @@
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__paragraph/intro__paragraph.css);
+@import url(../blocks/intro/__paragraph-mobile/intro__paragraph-mobile.css);
 @import url(../blocks/intro/__picture/intro__picture.css);
 
 /* about */
