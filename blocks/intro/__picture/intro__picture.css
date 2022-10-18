@@ -4,3 +4,9 @@
   grid-area: image;
   object-fit: cover;
 }
+
+@media screen and (max-width: 425px) {
+  .intro__picture {
+    height: 450px;
+  }
+}
