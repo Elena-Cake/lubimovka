@@ -1,4 +1,10 @@
 .header__links_social {
-  padding-right: 7px;
-  padding-left: 7px;
+  padding: 0.69vw 0.49vw;
+
+}
+
+@media screen and (min-width: 1440px) {
+  .header__links_social {
+    padding: 10px 7px;
+  }
 }
