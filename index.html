@@ -15,16 +15,10 @@
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide-core.min.css">
   <title>Любимовка</title>
-  <style>
-    * {
-      border: 1px black solid;
-      box-sizing: border-box;
-    }
-  </style>
 </head>
 <body class="page">
   <!-- Саша -->
-  <!-- <header class="header">
+  <header class="header">
     <a href="#" class="header__logo"></a>
     <nav class="header__navigation">
       <ul class="header__links header__links_site-navigation">
@@ -49,23 +43,23 @@
     </nav>
     <a href="#" target="_blank" class="header__pay-link"><div class="header__dagger"></div> ПОДДЕРЖАТЬ</a>
     <a href="#" class="header__return-link"> ПРОЕКТЫ<div class="header__return-link-arrow"></div></a>
-  </header> -->
+  </header>
   <main class="main">
     <!-- Соня -->
-    <!-- <section class="intro">
+    <section class="intro">
       <h1 class="intro__title">Любимовка. Ещё</h1>
       <p class="intro__paragraph">Межсезонные читки и обсуждение пьес из списка, отмеченных отборщиками Любимовки.</p>
       <img class="intro__picture" src="./images/intro-audience.jpg" alt="группа людей сидят и читают пьесы">
-    </section> -->
+    </section>
     <!-- Лена -->
-    <!-- <section class="about">
+    <section class="about">
         <h2 class="section-title section-title_place_about">О проекте</h2>
         <p class="about__text section-text">
             За первый сезон проекта организаторы провели 17 мероприятий вместе с режиссёрами и актёрами московских театров: Театра.doc, Театрального Центра им. Вс. Мейерхольда, Гоголь-центра, Электротеатра «Станиславский», Ленкома.
         </p>
-    </section> -->
+    </section>
 <!-- Костя -->
-    <!-- <section class="video">
+    <section class="video">
       <div class="video__container video__container_type_extended">
         <h2 class="section-title">Заголовок блока с видео</h2>
         <div class="video__item video__item_size_l">
@@ -144,9 +138,9 @@
           </li>
         </ul>
       </div>
-    </section> -->
+    </section>
     <!-- Соня -->
-    <!-- <section class="gallery">
+    <section class="gallery">
       <h2 class="gallery__title section-title">Заголовок блока с фотографиями</h2>
       <ul class="gallery-photo">
         <li><img class="gallery-photo__item" src="./images/gallery-1.jpg" alt="2 актера"></li>
@@ -158,99 +152,101 @@
         <li><img class="gallery-photo__item" src="./images/gallery-7.jpg" alt="чб фотография хора"></li>
         <li><img class="gallery-photo__item" src="./images/gallery-2.jpg" alt="фотография актера"></li>
       </ul>
-    </section> -->
+    </section>
     <!-- Стас -->
     <section class="perfomances">
-      <div class="perfomances__container">
+      <div class="splide perfomances__container" id ='splide_place_perfomances' role="group">
         <h2 class="section-title section-title_place_perfomances">Заголовок блока с&nbsp;тремя и более спектаклями</h2>
-        <ul class="perfomances__list perfomances__list_qty_inf">
-          <li class="perfomances__item">
-            <div class="perfomance-card">
-              <img src="./images/perfomances-mother.jpg" alt="Афиша спектакля" class="perfomance-card__image">
-              <div class="perfomance-card__info">
-                <time class="perfomance-card__datetime" datetime="2022-12-15 11:00">
-                  <span class="perfomance-card__date">15 декабря</span>11:00
-                </time>
-                <h3 class="perfomance-card__title">МАМА</h3>
-                <div class="perfomance-card__authors">
-                  <p class="perfomance-card__author">Драматург: Ольга Казакова</p>
-                  <p class="perfomance-card__author">Режиссёр: Катя Ганюшинаяч</p>
+        <div class="splide__track">
+          <ul class=" splide__list perfomances__list perfomances__list_qty_inf">
+            <li class="perfomances__item splide__slide">
+              <div class="perfomance-card">
+                <img src="./images/perfomances-mother.jpg" alt="Афиша спектакля" class="perfomance-card__image">
+                <div class="perfomance-card__info">
+                  <time class="perfomance-card__datetime" datetime="2022-12-15 11:00">
+                    <span class="perfomance-card__date">15 декабря</span>11:001
+                  </time>
+                  <h3 class="perfomance-card__title">МАМА</h3>
+                  <div class="perfomance-card__authors">
+                    <p class="perfomance-card__author">Драматург: Ольга Казакова</p>
+                    <p class="perfomance-card__author">Режиссёр: Катя Ганюшинаяч</p>
+                  </div>
+                  <p class="perfomance-card__paragraph">читка проекта Любимовка.Ещё</p>
                 </div>
-                <p class="perfomance-card__paragraph">читка проекта Любимовка.Ещё</p>
+                <div class="perfomance-card__links">
+                  <a class="link perfomance-card__link" href="#" target="_blank">
+                    <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                    </svg>О спектакле
+                  </a>
+                  <a class="link perfomance-card__link" href="#" target="_blank">
+                    <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                    </svg>Билеты
+                  </a>
+                </div>
               </div>
-              <div class="perfomance-card__links">
-                <a class="link perfomance-card__link" href="#" target="_blank">
-                  <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
-                  </svg>О спектакле
-                </a>
-                <a class="link perfomance-card__link" href="#" target="_blank">
-                  <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
-                  </svg>Билеты
-                </a>
-              </div>
-            </div>
-          </li>
+            </li>
 
-          <li class="perfomances__item">
-            <div class="perfomance-card">
-              <img src="./images/perfomances-lin.jpg" alt="Афиша спектакля" class="perfomance-card__image">
-              <div class="perfomance-card__info">
-                <time class="perfomance-card__datetime" datetime="2022-12-15 11:00">
-                  <span class="perfomance-card__date">15 декабря</span>11:00
-                </time>
-                <h3 class="perfomance-card__title">Про линя</h3>
-                <div class="perfomance-card__authors">
-                  <p class="perfomance-card__author">Драматург: Ольга Казакова</p>
-                  <p class="perfomance-card__author">Режиссёр: Катя Ганюшинаяч</p>
+            <li class="splide__slide perfomances__item">
+              <div class="perfomance-card">
+                <img src="./images/perfomances-lin.jpg" alt="Афиша спектакля" class="perfomance-card__image">
+                <div class="perfomance-card__info">
+                  <time class="perfomance-card__datetime" datetime="2022-12-15 11:00">
+                    <span class="perfomance-card__date">15 декабря</span>11:00
+                  </time>
+                  <h3 class="perfomance-card__title">Про линя</h3>
+                  <div class="perfomance-card__authors">
+                    <p class="perfomance-card__author">Драматург: Ольга Казакова</p>
+                    <p class="perfomance-card__author">Режиссёр: Катя Ганюшинаяч</p>
+                  </div>
+                  <p class="perfomance-card__paragraph">читка проекта Любимовка.Ещё</p>
                 </div>
-                <p class="perfomance-card__paragraph">читка проекта Любимовка.Ещё</p>
+                <div class="perfomance-card__links">
+                  <a class="link perfomance-card__link" href="#" target="_blank">
+                    <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                    </svg>О спектакле
+                  </a>
+                  <a class="link perfomance-card__link" href="#" target="_blank">
+                    <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                    </svg>Билеты
+                  </a>
+                </div>
               </div>
-              <div class="perfomance-card__links">
-                <a class="link perfomance-card__link" href="#" target="_blank">
-                  <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
-                  </svg>О спектакле
-                </a>
-                <a class="link perfomance-card__link" href="#" target="_blank">
-                  <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
-                  </svg>Билеты
-                </a>
-              </div>
-            </div>
-          </li>
+            </li>
 
-          <li class="perfomances__item">
-            <div class="perfomance-card">
-              <img src="./images/perfomances-mother.jpg" alt="Афиша спектакля" class="perfomance-card__image">
-              <div class="perfomance-card__info">
-                <time class="perfomance-card__datetime" datetime="2022-12-15 11:00">
-                  <span class="perfomance-card__date">15 декабря</span>11:00
-                </time>
-                <h3 class="perfomance-card__title">МАМА</h3>
-                <div class="perfomance-card__authors">
-                  <p class="perfomance-card__author">Драматург: Ольга Казакова</p>
-                  <p class="perfomance-card__author">Режиссёр: Катя Ганюшинаяч</p>
+            <li class=" splide__slide perfomances__item">
+              <div class="perfomance-card">
+                <img src="./images/perfomances-mother.jpg" alt="Афиша спектакля" class="perfomance-card__image">
+                <div class="perfomance-card__info">
+                  <time class="perfomance-card__datetime" datetime="2022-12-15 11:00">
+                    <span class="perfomance-card__date">15 декабря</span>11:00
+                  </time>
+                  <h3 class="perfomance-card__title">МАМА</h3>
+                  <div class="perfomance-card__authors">
+                    <p class="perfomance-card__author">Драматург: Ольга Казакова</p>
+                    <p class="perfomance-card__author">Режиссёр: Катя Ганюшинаяч</p>
+                  </div>
+                  <p class="perfomance-card__paragraph">читка проекта Любимовка.Ещё</p>
                 </div>
-                <p class="perfomance-card__paragraph">читка проекта Любимовка.Ещё</p>
+                <div class="perfomance-card__links">
+                  <a class="link perfomance-card__link" href="#" target="_blank">
+                    <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                    </svg>О спектакле
+                  </a>
+                  <a class="link perfomance-card__link" href="#" target="_blank">
+                    <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                    </svg>Билеты
+                  </a>
+                </div>
               </div>
-              <div class="perfomance-card__links">
-                <a class="link perfomance-card__link" href="#" target="_blank">
-                  <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
-                  </svg>О спектакле
-                </a>
-                <a class="link perfomance-card__link" href="#" target="_blank">
-                  <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
-                  </svg>Билеты
-                </a>
-              </div>
-            </div>
-          </li>
-        </ul>
+            </li>
+          </ul>
+      </div>
       </div>
 
       <div class="perfomances__container">
@@ -348,7 +344,7 @@
     </section>
 
     <!-- Лена -->
-    <!-- <section class="play">
+    <section class="play">
         <h2 class="play__title section-title">Заголовок блока с пьесами</h2>
         <ul class="play__items">
             <li class="play__item">
@@ -427,9 +423,9 @@
                 <p class="play__place">Санкт-Петербург 2020</p>
             </li>
         </ul>
-    </section> -->
+    </section>
     <!-- Саша -->
-    <!-- <section class="persons">
+    <section class="persons">
       <h2 class="persons__title">Заголовок блока с персонами</h2>
       <ul class="persons__cards">
         <li class="persons__card">
@@ -453,18 +449,18 @@
           <p class="persons__subtitle">Драматург, сценарист, преподаватель</p>
         </li>
       </ul>
-    </section> -->
+    </section>
     <!-- Костя -->
-    <!-- <section class="reference">
+    <section class="reference">
       <h2 class="section-title section-title_place_reference">Заголовок блока с&nbsp;кнопкой/ссылкой</h2>
       <div class="reference__container">
         <p class="reference__description">Видео прошедших мероприятий можно посмотреть в плейлисте на канале Любимовки в YouTube</p>
         <a class="reference__link" href="https://www.youtube.com/channel/UCDZ1HTzBVBxm_vw6tV7C3lg" target="_blank">
           <span class="reference__link-name">Youtube</span><svg class="reference__link-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/></svg></a>
       </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="cooperation">
+    <section class="cooperation">
       <div class="cooperation__asterisk"></div>
       <h2 class="section-title cooperation__title">Проект открыт к&nbsp;сотрудничеству</h2>
       <div class="section-text cooperation__text">
@@ -478,10 +474,10 @@
           </a>
         </address>
       </div>
-    </section> -->
+    </section>
   </main>
 
-  <!-- <footer class="footer">
+  <footer class="footer">
 
     <img src="./images/logo-liubimovka.svg" alt="Логотип фестиваля 'Любимовка'" class="footer__logo">
     <div class="footer__partners">
@@ -564,7 +560,7 @@
       </p>
     </div>
 
-  </footer> -->
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
   <script src="./scripts/slider.js"></script>
   <script src="./scripts/video.js"></script>
