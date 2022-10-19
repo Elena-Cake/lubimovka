@@ -1,4 +1,11 @@
 .about__text {
-    width: 509px;
+    max-width: 509px;
+    width: calc(100%*305/414);
     margin-left: calc(100% * (420/1440));
+}
+
+@media screen and (max-width: 767px){
+    .about__text {
+        margin-left: calc(100% * 85/414);
+    }
 }
