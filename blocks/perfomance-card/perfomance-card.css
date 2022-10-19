@@ -1,5 +1,6 @@
 .perfomance-card {
-  width: 420px;
+  max-width: 420px;
+  width: 100%;
   position: relative;
   display: grid;
   grid-template: repeat(4, auto) / 120px 1fr;
