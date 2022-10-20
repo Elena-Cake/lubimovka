@@ -10,6 +10,7 @@
   align-self: flex-end;
   margin: 0 0 0.97vw 0.56vw;
   display: flex;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 1440px) {
