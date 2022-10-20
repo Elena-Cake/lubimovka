@@ -3,3 +3,9 @@
     padding: 79px 0 120px;
     background-color: #B7C09D;
 }
+
+@media screen and (max-width: 767px){
+    .about {
+        padding: 56px 0 72px ;
+    }
+}
