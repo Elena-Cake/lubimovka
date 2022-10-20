@@ -1,13 +1,24 @@
 .header__pay-link {
-  height: 30px;
+  height: 2.08vw;
   text-decoration: none;
   font-style: normal;
   font-weight: 300;
-  font-size: 14px;
-  line-height: 25px;
+  font-size: 0.97vw;
+  line-height: 1.74vw;
   color: #242424;
-  padding: 0 10.1px;
+  padding: 0 0.7vw;
   align-self: flex-end;
-  margin: 0 0 14px 8px;
+  margin: 0 0 0.97vw 0.56vw;
   display: flex;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1440px) {
+  .header__pay-link {
+    height: 30px;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0 10.1px;
+    margin: 0 0 14px 8px;
+  }
 }

@@ -1,11 +1,20 @@
 .header__link {
-  height: 24px;
+  height: 1.67vw;
   text-decoration: none;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 1.11vw;
+  line-height: 1.53vw;
   color: #242424;
-  padding: 0 10.1px;
+  padding: 0 0.7vw;
   vertical-align: middle;
+}
+
+@media screen and (min-width: 1440px) {
+  .header__link {
+    height: 24px;
+    padding: 0 10.1px;
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
