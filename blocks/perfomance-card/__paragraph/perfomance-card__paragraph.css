@@ -5,3 +5,9 @@
   font-size: 14px;
   line-height: 17px;
 }
+
+@media screen and (max-width: 767px) {
+  .perfomance-card__paragraph {
+    margin: 0.5rem 0 40px;
+  }
+}

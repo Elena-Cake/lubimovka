@@ -12,8 +12,9 @@
   <meta name="author" content="Константин Филяев">
   <meta name="description" content="Лендинг театрального фестиваля Любимовка">
   <link href='./images/favicon.ico' rel="icon" type="image/icon">
+  <link rel="stylesheet" href="./vendor/splider/dist/css/splide.min.css">
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide-core.min.css">
+
   <title>Любимовка</title>
 </head>
 <body class="page">
@@ -156,8 +157,25 @@
     </section>
     <!-- Стас -->
     <section class="perfomances">
-      <div class="splide perfomances__container" id ='splide_place_perfomances' role="group">
+      <div class="splide perfomances__container perfomances__container_qty_inf-perfomances" id ='splide_place_perfomances' role="group">
         <h2 class="section-title section-title_place_perfomances">Заголовок блока с&nbsp;тремя и более спектаклями</h2>
+        <div class='slider__buttons-container'>
+          <ul class="splide__pagination"></ul>
+          <div class="splide__arrows">
+            <button class="splide__arrow splide__arrow--prev slider__button">
+              <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25 0.999997C38.2548 0.999999 49 11.7452 49 25C49 38.2548 38.2548 49 25 49" stroke="#242424"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M35 24.4766L34.2752 25.2014L28.4766 31L27.7737 30.2971L33.0944 24.9765L14 24.9765L14 23.9765L33.0502 23.9765L27.7986 18.7248L28.5234 18L34.2971 23.7737L35 24.4766Z" fill="#242424"/>
+              </svg>
+            </button>
+            <button class="splide__arrow splide__arrow--next slider__button">
+              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25 0.999997C38.2548 0.999999 49 11.7452 49 25C49 38.2548 38.2548 49 25 49" stroke="#242424"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M35 24.4766L34.2752 25.2014L28.4766 31L27.7737 30.2971L33.0944 24.9765L14 24.9765L14 23.9765L33.0502 23.9765L27.7986 18.7248L28.5234 18L34.2971 23.7737L35 24.4766Z" fill="#242424"/>
+              </svg>
+            </button>
+          </div>
+        </div>
         <div class="splide__track">
           <ul class=" splide__list perfomances__list perfomances__list_qty_inf">
             <li class="perfomances__item splide__slide">
@@ -165,7 +183,7 @@
                 <img src="./images/perfomances-mother.jpg" alt="Афиша спектакля" class="perfomance-card__image">
                 <div class="perfomance-card__info">
                   <time class="perfomance-card__datetime" datetime="2022-12-15 11:00">
-                    <span class="perfomance-card__date">15 декабря</span>11:001
+                    <span class="perfomance-card__date">15 декабря</span>11:00
                   </time>
                   <h3 class="perfomance-card__title">МАМА</h3>
                   <div class="perfomance-card__authors">
@@ -247,10 +265,10 @@
               </div>
             </li>
           </ul>
-      </div>
+        </div>
       </div>
 
-      <div class="perfomances__container">
+      <div class="perfomances__container perfomances__container_qty_two-perfomances">
         <h2 class="section-title section-title_place_perfomances">Заголовок блока с&nbsp;двумя спектаклями</h2>
         <ul class="perfomances__list perfomances__list_qty_two">
           <li class="perfomances__item">
@@ -313,8 +331,8 @@
         </ul>
       </div>
 
-      <div class="perfomances__container perfomances__container_inline-content">
-        <h2 class="section-title section-title_place_perfomances section-title_place_perfomances-inline-container">Заголовок блока с&nbsp;одним спектаклем</h2>
+      <div class="perfomances__container perfomances__container_qty_one-perfomance">
+        <h2 class="section-title section-title_place_perfomances section-title_place_perfomances-qty-one">Заголовок блока с&nbsp;одним спектаклем</h2>
         <div class="perfomance-card">
           <img src="./images/perfomances-lin.jpg" alt="Афиша спектакля" class="perfomance-card__image">
           <div class="perfomance-card__info">
@@ -560,7 +578,7 @@
       </p>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
+  <script src="./vendor/splider/dist/js/splide.min.js"></script>
   <script src="./scripts/slider.js"></script>
   <script src="./scripts/video.js"></script>
 </body>
