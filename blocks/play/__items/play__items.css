@@ -3,8 +3,16 @@
     margin: 0 auto;
     padding: 0;
     display: grid;
-    gap: 30px;
+    gap: calc(100% * 30/1320);
     max-width: 1320px;
-    width: 1320px;
+    width: 100%;
+    overflow: hidden;
     grid-template-columns: repeat(5, 1fr);
+}
+
+@media screen and (max-width: 1279px){
+    .play__items {
+        margin: 0 0 0 6%;
+        width: 94%;
+    }
 }
