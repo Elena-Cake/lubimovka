@@ -4,6 +4,9 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/animation-progress/animation-progress.css);
+@import url(../blocks/arrow/arrow.css);
+
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_place/section-title_place_about.css);
 @import url(../blocks/section-title/_place/section-title_place_perfomances.css);
@@ -119,7 +122,6 @@
 @import url(../blocks/reference/__container/reference__container.css);
 @import url(../blocks/reference/__description/reference__description.css);
 @import url(../blocks/reference/__link/reference__link.css);
-@import url(../blocks/reference/__link-icon/reference__link-icon.css);
 
 
 /* cooperation */
