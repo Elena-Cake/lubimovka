@@ -2,3 +2,10 @@
   width: 50%;
   margin: 37px auto 55px;
 }
+
+@media screen and (max-width: 767px) {
+  .video__item_size_l {
+    width: calc(100% * 366/414);
+    margin: 32px auto;
+  }
+}

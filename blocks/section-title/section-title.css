@@ -19,5 +19,6 @@
 @media screen and (max-width: 767px){
   .section-title {
     margin-left: calc(100% * 24/414);
+    line-height: 1.14;
   }
 }
