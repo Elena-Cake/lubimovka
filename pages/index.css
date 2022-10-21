@@ -1,4 +1,3 @@
-
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
@@ -7,11 +6,13 @@
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_place/section-title_place_about.css);
 @import url(../blocks/section-title/_place/section-title_place_perfomances.css);
-@import url(../blocks/section-title/_place/section-title_place_perfomances-inline-container.css);
+@import url(../blocks/section-title/_place/section-title_place_perfomances-qty-one.css);
 @import url(../blocks/section-title/_place/section-title_place_reference.css);
 @import url(../blocks/section-text/section-text.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/__arrow-image/link__arrow-image.css);
+@import url(../blocks/slider/__buttons-container/slider__buttons-container.css);
+@import url(../blocks/slider/__button/slider__button.css);
 
 /* header */
 @import url(../blocks/header/header.css);
@@ -71,7 +72,8 @@
 /* perfomances */
 @import url(../blocks/perfomances/perfomances.css);
 @import url(../blocks/perfomances/__container/perfomances__container.css);
-@import url(../blocks/perfomances/__container/_inline-content/perfomances__container_inline-content.css);
+@import url(../blocks/perfomances/__container/_qty/perfomances__container_qty_one-perfomance.css);
+@import url(../blocks/perfomances/__container/_qty/perfomances__container_qty_two-perfomances.css);
 @import url(../blocks/perfomances/__list/perfomances__list.css);
 @import url(../blocks/perfomances/__item/perfomances__item.css);
 @import url(../blocks/perfomances/__list/_qty/perfomances__list_qty_two.css);
@@ -150,3 +152,4 @@
 @import url(../blocks/footer/__authors-developers/footer__authors-developers.css);
 @import url(../blocks/footer/__icon-decorative/footer__icon-decorative.css);
 @import url(../blocks/footer/__text/footer__text.css);
+

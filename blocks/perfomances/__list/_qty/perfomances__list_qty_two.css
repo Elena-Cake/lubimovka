@@ -1,6 +1,34 @@
 .perfomances__list_qty_two {
-  column-gap: 118px;
+  column-gap: calc(59px + 59 *((100vw - 880px)/(1440 - 880)));
+  margin-top: 75px;
 }
 .perfomances__list_qty_two .perfomances__item:not(:last-of-type)::after {
-  right: -59px;
+  right: calc( -1*(30px + 30 * ((100vw - 880px)/(1440 - 880))));
+}
+
+@media screen and (min-width: 1440px) {
+  .perfomances__list_qty_two {
+    column-gap: 118px;
+  }
+  .perfomances__list_qty_two .perfomances__item:not(:last-of-type)::after {
+    right: -60px;
+  }
+}
+
+@media screen and (max-width: 879px) {
+  .perfomances__list_qty_two {
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+  }
+  .perfomances__list_qty_two .perfomances__item:not(:last-of-type)::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 100%;
+    top: unset;
+    bottom: -32px;
+    left: 0;
+  }
 }
