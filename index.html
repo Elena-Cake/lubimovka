@@ -560,16 +560,24 @@
     </div>
 
   </footer>
-  
+
    <section class="popup popup_type_images" aria-label="всплывающее окно с картинкой">
     <figure class="popup__container-images">
-      <button class="popup__close-icon links" type="button"></button>
-      <button class="popup__left-button" type="button">
-        <div class="popup__left-arrow"></div>
+      <button class="buttons buttons__close-icon links" type="button"></button>
+      <button class="buttons" type="button">
+        <div class=" buttons__right-arrow buttons__left-arrow">
+          <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class='arrow' fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
+            </svg>
+        </div>
       </button>
-      <img class="popup__picture" alt="картинка читки" src="http://127.0.0.1:5500/images/gallery-4.jpg" >
-      <button class="popup__right-button links" type="button">
-        <div class="popup__right-arrow"></div>
+      <img class="popup__picture" alt="картинка читки" src="#" >
+      <button class="buttons" type="button">
+        <div class="buttons__right-arrow">
+        <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class='arrow' fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
+          </svg>
+          </div>
       </button>
     </figure>
 </section>
@@ -577,5 +585,6 @@
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
   <script src="./scripts/slider.js"></script>
   <script src="./scripts/video.js"></script>
+  <script src="./scripts/popup.js"></script>
 </body>
 </html>

@@ -153,3 +153,12 @@
 
 
 @import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__picture/popup__picture.css);
+@import url(../blocks/popup/__container-images/popup_container-images.css);
+
+
+@import url(../blocks/buttons/__buttons.css);
+@import url(../blocks/buttons/__close-icon/buttons__close-icon.css);
+@import url(../blocks/buttons/__right-button/buttons__right-button.css);
+@import url(../blocks/buttons/__left-arrow/buttons__left-arrow.css);
