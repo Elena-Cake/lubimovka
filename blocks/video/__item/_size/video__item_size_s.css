@@ -3,3 +3,9 @@
   padding: 0;
   width: 100%;
 }
+
+/*@media screen and (max-width: 1024px) {
+  .video__item_size_s {
+    min-width: 299px;
+  }
+}*/

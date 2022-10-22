@@ -1,3 +1,34 @@
 .perfomances__item {
   position: relative;
 }
+.perfomances__item:not(:last-of-type)::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -29.5px;
+  height: 268px;
+  border: 0.5px solid #242424;
+}
+
+@media screen and (max-width: 767px) {
+  .perfomances__item {
+    width: 100%;
+  }
+  .perfomances__item:not(:last-of-type)::after {
+    top: inherit;
+    right: inherit;
+    bottom: -32px;
+    height: 0px;
+    width: 100%;
+  }
+  .perfomances__item::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -32px;
+    height: 0px;
+    width: 100%;
+    border: 0.5px solid #242424;
+  }
+}

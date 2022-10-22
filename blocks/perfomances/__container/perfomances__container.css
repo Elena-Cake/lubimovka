@@ -1,3 +1,16 @@
+.perfomances__container {
+  padding: 0 10px;
+}
+
 .perfomances__container:not(:last-of-type) {
   margin-bottom: 129px;
+}
+
+@media screen and (max-width: 767px) {
+  .perfomances__container {
+    padding: 0;
+  }
+  .perfomances__container:not(:last-of-type) {
+    margin-bottom: 0px;
+  }
 }

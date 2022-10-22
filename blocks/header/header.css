@@ -1,9 +1,19 @@
 .header {
   max-width: 1440px;
-  min-height: 60.5px;
+  min-height: 4.2vw;
+  padding-top: 0.8vw;
+  box-sizing: border-box;
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
   border-bottom: 1px solid #242424;
   position: relative;
-  /* overflow: hidden; */
 }
+
+@media screen and (min-width: 1440px) {
+  .header {
+    max-width: 1440px;
+    min-height: 60.5px;
+  }
+}
+

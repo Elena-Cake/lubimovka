@@ -1,17 +1,21 @@
-
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/animation-progress/animation-progress.css);
+@import url(../blocks/arrow/arrow.css);
+
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_place/section-title_place_about.css);
 @import url(../blocks/section-title/_place/section-title_place_perfomances.css);
-@import url(../blocks/section-title/_place/section-title_place_perfomances-inline-container.css);
+@import url(../blocks/section-title/_place/section-title_place_perfomances-qty-one.css);
 @import url(../blocks/section-title/_place/section-title_place_reference.css);
 @import url(../blocks/section-text/section-text.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/__arrow-image/link__arrow-image.css);
+@import url(../blocks/slider/__buttons-container/slider__buttons-container.css);
+@import url(../blocks/slider/__button/slider__button.css);
 
 /* header */
 @import url(../blocks/header/header.css);
@@ -31,6 +35,7 @@
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__paragraph/intro__paragraph.css);
+@import url(../blocks/intro/__paragraph-mobile/intro__paragraph-mobile.css);
 @import url(../blocks/intro/__picture/intro__picture.css);
 
 /* about */
@@ -71,7 +76,8 @@
 /* perfomances */
 @import url(../blocks/perfomances/perfomances.css);
 @import url(../blocks/perfomances/__container/perfomances__container.css);
-@import url(../blocks/perfomances/__container/_inline-content/perfomances__container_inline-content.css);
+@import url(../blocks/perfomances/__container/_qty/perfomances__container_qty_one-perfomance.css);
+@import url(../blocks/perfomances/__container/_qty/perfomances__container_qty_two-perfomances.css);
 @import url(../blocks/perfomances/__list/perfomances__list.css);
 @import url(../blocks/perfomances/__item/perfomances__item.css);
 @import url(../blocks/perfomances/__list/_qty/perfomances__list_qty_two.css);
@@ -118,7 +124,6 @@
 @import url(../blocks/reference/__container/reference__container.css);
 @import url(../blocks/reference/__description/reference__description.css);
 @import url(../blocks/reference/__link/reference__link.css);
-@import url(../blocks/reference/__link-icon/reference__link-icon.css);
 
 
 /* cooperation */
@@ -151,12 +156,10 @@
 @import url(../blocks/footer/__icon-decorative/footer__icon-decorative.css);
 @import url(../blocks/footer/__text/footer__text.css);
 
-
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__picture/popup__picture.css);
 @import url(../blocks/popup/__container-images/popup_container-images.css);
-
 
 @import url(../blocks/buttons/__buttons.css);
 @import url(../blocks/buttons/__close-icon/buttons__close-icon.css);

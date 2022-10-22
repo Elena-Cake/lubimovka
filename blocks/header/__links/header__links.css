@@ -2,5 +2,11 @@
   list-style: none;
   display: flex;
   margin: 0;
-  padding: 10px 0;
+  padding: 0.69vw 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .header__links {
+    padding: 10px 0;
+  }
 }

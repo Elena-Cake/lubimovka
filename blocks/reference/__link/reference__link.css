@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  width: 298px;
+  width: calc(100% * 298/808);
   min-height: 56px;
   border: 1px solid #242424;
   align-self: flex-start;
@@ -13,21 +13,11 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #242424;
-/*  background-image: linear-gradient(#000, #000);
-  background-size: 0% 100%;
-  background-repeat: no-repeat;
-  transition: all .2s ease-in;*/
 }
 
-/*.reference__link:hover {
-  background-size: 100% 100%;
-  color: #fff;
+@media screen and (max-width: 1023px) {
+  .reference__link {
+    margin-top: 16px;
+    width: 298px;
+  }
 }
-
-.reference__link:hover .reference__link-icon {
-  fill: #fff;
-}
-
-.reference__link:active {
-  outline: 2px solid #000;
-} */

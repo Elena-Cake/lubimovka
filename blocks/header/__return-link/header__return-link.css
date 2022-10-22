@@ -1,18 +1,30 @@
 .header__return-link {
-  height: 21px;
+  height: 1.8vw;
   text-decoration: none;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 14px;
+  font-size: 1.11vw;
+  line-height: 0.97vw;
   text-align: right;
   color: #242424;
   position: absolute;
-  bottom: -65px;
+  top: calc(50% + 4.51vw);
   left: 31px;
-  padding-top: 10px;
-  padding-left: 10px;
+  padding-left: 0.69vw;
   border-right:  1px solid #242424;
   border-bottom:  1px solid #242424;
   display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1440px) {
+  .header__return-link {
+    top: calc(50% + 65px);
+    height: 25px;
+    font-size: 16px;
+    line-height: 14px;
+    left: 31px;
+    padding-left: 10px;
+  }
 }

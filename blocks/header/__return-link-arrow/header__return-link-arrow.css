@@ -1,8 +1,17 @@
 .header__return-link-arrow {
-  height: 25px;
-  width: 25px;
-  margin-left: 4px;
+  height: 1.74vw;
+  width: 1.74vw;
+  margin-left: 0.4vw;
   background-image: url(../../../images/icon-arrow-left.svg);
-  background-position-x: right;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (min-width: 1440px) {
+  .header__return-link-arrow {
+    height: 25px;
+    width: 25px;
+    margin-left: 4px;
+  }
 }
