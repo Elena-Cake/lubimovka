@@ -1,6 +1,23 @@
 .footer__copyright {
+  max-width: 380px;
   padding-top: 37px;
   grid-area: copyright;
   display: flex;
+  flex-wrap: wrap;
   column-gap: 28px;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__copyright {
+    column-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    padding-top: 32px;
+    padding-bottom: 22px;
+    row-gap: 10px;
+    flex-direction: column;
+  }
 }

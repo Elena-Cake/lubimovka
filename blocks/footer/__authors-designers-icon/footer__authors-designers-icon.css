@@ -1,0 +1,10 @@
+.footer__authors-designers-icon {
+  display: flex;
+  column-gap: 2px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__authors-designers-icon {
+    column-gap: 10px;
+  }
+}

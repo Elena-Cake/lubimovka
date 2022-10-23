@@ -1,0 +1,25 @@
+.footer__partners-heading_display-visibility_mobile {
+  display: none;
+  margin: 0;
+  max-width: 157px;
+  font-size: 14px;
+  line-height: calc(20 / 14 * 100%);
+  position: absolute;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__partners-heading_display-visibility_mobile:nth-child(2) {
+    display: block;
+    top: 60px;
+    left: 16px
+  }
+}
+
+@media screen and (max-width: 542px) {
+  .footer__partners-heading_display-visibility_mobile:nth-child(3) {
+    display: block;
+    top: 179px;
+    left: 20px
+  }
+}
+
