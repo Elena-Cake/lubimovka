@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+  .hamburger__item {
+    transition: all .5s cubic-bezier(.25,.75,.25,.75);
+  }
+}

@@ -12,3 +12,10 @@
     height: 25px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .header__dagger {
+    width: 25px;
+    height: 25px;
+  }
+}

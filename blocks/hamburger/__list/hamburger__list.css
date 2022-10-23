@@ -1,0 +1,15 @@
+@media screen and (max-width: 767px) {
+  .hamburger__list {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    top: -100%;
+    right: 0;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    overflow: scroll;
+    transition: all .5s cubic-bezier(.25,.75,.25,.75);
+  }
+}
+
