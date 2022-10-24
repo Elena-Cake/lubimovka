@@ -3,3 +3,9 @@
   height: 25px;
   background: url(../../../images/logo-design.svg) center no-repeat;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__icon-decorative {
+    padding-bottom: 8px;
+  }
+}

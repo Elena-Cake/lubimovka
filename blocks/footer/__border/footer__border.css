@@ -1,0 +1,16 @@
+.footer__border {
+  display: none;
+  margin: 0;
+  width: 100%;
+  border: none;
+  border-top: 1px solid #242424;
+  position: absolute;
+  top: 1117px;
+  left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__border {
+    display: block;
+  }
+}

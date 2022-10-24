@@ -136,9 +136,13 @@
 
 /* footer */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__border/footer__border.css);
+@import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__logo/logo.css);
 @import url(../blocks/footer/__partners/footer__partners.css);
 @import url(../blocks/footer/__partners-heading/footer__partners-heading.css);
+@import url(../blocks/footer/__partners-heading/_display-visibility/footer__partners-heading_display-visibility_mobile.css);
+@import url(../blocks/footer/__partner-logo/footer__partner-logo.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__links/_content/footer__links_content_partners.css);
 @import url(../blocks/footer/__link/footer__link.css);
@@ -152,9 +156,11 @@
 @import url(../blocks/footer/__copyright/copyright.css);
 @import url(../blocks/footer/__authors/footer__authors.css);
 @import url(../blocks/footer/__authors-designers/footer__authors-designers.css);
+@import url(../blocks/footer/__authors-designers-icon/footer__authors-designers-icon.css);
 @import url(../blocks/footer/__authors-developers/footer__authors-developers.css);
 @import url(../blocks/footer/__icon-decorative/footer__icon-decorative.css);
 @import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__text/_accent/footer__text_accent_underline.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);

@@ -6,3 +6,9 @@
   flex-flow: column wrap;
   row-gap: 15px;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__links {
+    row-gap: 13px;
+  }
+}

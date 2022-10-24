@@ -2,3 +2,11 @@
   max-width: 220px;
   margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__text {
+    font-size: 14px;
+    line-height: calc(17 / 14 * 100%);
+  }
+}
+
