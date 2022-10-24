@@ -1,3 +1,10 @@
 .footer__address {
   grid-area: address;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__address {
+    padding-bottom: 56px;
+    padding-left: 30px;
+  }
+}

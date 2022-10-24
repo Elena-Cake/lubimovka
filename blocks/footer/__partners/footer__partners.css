@@ -1,4 +1,11 @@
 .footer__partners {
   grid-area: partners;
   display: flex;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__partners {
+    justify-content: space-around;
+  }
 }

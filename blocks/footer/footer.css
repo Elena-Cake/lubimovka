@@ -1,15 +1,4 @@
 .footer {
-  margin-right: calc(100% * (92 / 1440));
-  margin-left: calc(100% * (32 / 1440));
-  padding: 42px 0 0;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: calc(17 / 14 * 100%);
-  display: grid;
-  grid-template-columns: 179px 569px 568px;
-  grid-template-rows: 101px 223px 126px;
-  grid-template-areas:
-    'logo partners partners'
-    '. address navigation'
-    '. copyright authors';
+  width: 100%;
+  position: relative;
 }
