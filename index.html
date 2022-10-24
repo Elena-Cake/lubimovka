@@ -162,16 +162,18 @@
           <ul class="splide__pagination"></ul>
           <div class="splide__arrows">
             <button class="splide__arrow splide__arrow--prev slider__button">
-              <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M25 0.999997C38.2548 0.999999 49 11.7452 49 25C49 38.2548 38.2548 49 25 49" stroke="#242424"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M35 24.4766L34.2752 25.2014L28.4766 31L27.7737 30.2971L33.0944 24.9765L14 24.9765L14 23.9765L33.0502 23.9765L27.7986 18.7248L28.5234 18L34.2971 23.7737L35 24.4766Z" fill="#242424"/>
-              </svg>
+              <div class="buttons__right-arrow buttons__left-arrow">
+                <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
+                  </svg>
+              </div>
             </button>
             <button class="splide__arrow splide__arrow--next slider__button">
-              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M25 0.999997C38.2548 0.999999 49 11.7452 49 25C49 38.2548 38.2548 49 25 49" stroke="#242424"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M35 24.4766L34.2752 25.2014L28.4766 31L27.7737 30.2971L33.0944 24.9765L14 24.9765L14 23.9765L33.0502 23.9765L27.7986 18.7248L28.5234 18L34.2971 23.7737L35 24.4766Z" fill="#242424"/>
-              </svg>
+              <div class="buttons__right-arrow">
+                <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
+                </svg>
+                </div>
             </button>
           </div>
         </div>
@@ -235,7 +237,7 @@
               </div>
             </li>
 
-            <li class=" splide__slide perfomances__item">
+            <li class="splide__slide perfomances__item">
               <div class="perfomance-card">
                 <img src="./images/perfomances-mother.jpg" alt="Афиша спектакля" class="perfomance-card__image">
                 <div class="perfomance-card__info">
@@ -585,29 +587,41 @@
     </div>
   </footer>
 
-  <section class="popup popup_type_images" aria-label="всплывающее окно с картинкой">
+   <section class="popup popup_type_images splide" id="splide_place_gallery-popup" aria-label="всплывающее окно с картинкой">
     <figure class="popup__container-images">
       <button class="buttons buttons__close-icon links" type="button"></button>
-      <button class="buttons" type="button">
-        <div class=" buttons__right-arrow buttons__left-arrow">
-          <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
-            </svg>
+      <div class="splide__arrows buttons_position">
+        <button class="splide__arrow splide__arrow--prev buttons button-left" type="button">
+          <div class="buttons__right-arrow buttons__left-arrow">
+            <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
+              </svg>
+          </div>
+        </button>
+        <div class="splide__track">
+          <ul class="splide__list popup__photo-container">
+        </ul>
         </div>
-      </button>
-      <img class="popup__picture" alt="картинка читки" src="#" >
-      <button class="buttons" type="button">
+        <button class="splide__arrow splide__arrow--next buttons button-right" type="button">
         <div class="buttons__right-arrow">
           <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
           </svg>
           </div>
-      </button>
+        </button>
+      </div>
     </figure>
 </section>
 
+<template class="photos">
+  <li class="splide__slide">
+    <img class="photo popup__picture" alt="картинка читки" src="#">
+  </li>
+</template>
+
+<script src="./vendor/splider/dist/js/splide.min.js"></script>
   <script src="./scripts/popup.js"></script>
-  <script src="./vendor/splider/dist/js/splide.min.js"></script>
+
   <script src="./scripts/slider.js"></script>
   <script src="./scripts/video.js"></script>
 </body>

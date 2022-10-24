@@ -11,6 +11,15 @@ var splide = new Splide( '#splide_place_perfomances', {
     },
   }
 } );
-
-
 splide.mount();
+
+var splide2 = new Splide( '#splide_place_gallery-popup', {
+  perPage: 1,
+  pagination: false,
+  rewind: true,
+  rewindByDrag: true,
+  gap: '20px'
+  // width: '75vw'
+  // fixedWidth : '75vw',
+} );
+
