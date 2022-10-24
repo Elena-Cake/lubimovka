@@ -1,3 +1,9 @@
 .footer__projects {
   grid-area: projects;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__projects {
+    padding-top: 54px;
+  }
+}
