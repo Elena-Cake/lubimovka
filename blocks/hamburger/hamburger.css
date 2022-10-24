@@ -1,0 +1,32 @@
+.hamburger {
+  opacity: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .hamburger:checked ~ .hamburger__button > .hamburger__line {
+    transform:  rotate(360deg);
+    background-color: transparent;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+  .hamburger:checked ~ .hamburger__button > .hamburger__line::after {
+    top: 9px;
+    transform: rotate(-405deg);
+  }
+
+  .hamburger:checked ~ .hamburger__button > .hamburger__line::before {
+    top: 9px;
+    transform: rotate(-315deg);
+
+  }
+
+  .hamburger:checked ~ .hamburger__list {
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    opacity: 1;
+  }
+}

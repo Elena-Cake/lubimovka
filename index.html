@@ -19,30 +19,34 @@
 <body class="page">
   <!-- Саша -->
   <header class="header">
+    <input class="hamburger" id="hamburger" type="checkbox" />
+    <label class="hamburger__button" for="hamburger">
+      <span class="hamburger__line"></span>
+    </label>
     <a href="#" class="header__logo"></a>
-    <nav class="header__navigation">
+    <nav class="header__navigation hamburger__list">
       <ul class="header__links header__links_site-navigation">
-        <li><a href="#" class="header__link">Афиша</a></li>
-        <li><a href="#" class="header__link">Библиотека</a></li>
-        <li><a href="#" class="header__link">Проекты</a></li>
-        <li><a href="#" class="header__link">История</a></li>
-        <li><a href="#" class="header__link">Блог</a></li>
-        <li><a href="#" class="header__link">Новости</a></li>
-        <li><a href="#" class="header__link">О&nbsp;фестивале</a></li>
-        <li><a href="#" class="header__link">Контакты</a></li>
+        <li><a href="#" class="header__link hamburger__item">Афиша</a></li>
+        <li><a href="#" class="header__link hamburger__item">Библиотека</a></li>
+        <li><a href="#" class="header__link hamburger__item">Проекты</a></li>
+        <li><a href="#" class="header__link hamburger__item">История</a></li>
+        <li><a href="#" class="header__link hamburger__item">Блог</a></li>
+        <li><a href="#" class="header__link hamburger__item">Новости</a></li>
+        <li><a href="#" class="header__link hamburger__item">О&nbsp;фестивале</a></li>
+        <li><a href="#" class="header__link hamburger__item">Контакты</a></li>
       </ul>
-    </nav>
-    <nav class="header__navigation">
       <ul class="header__links header__links_social">
-        <li><a href="#" target="_blank" class="header__link">fb</a></li>
-        <li><a href="#" target="_blank" class="header__link">inst</a></li>
-        <li><a href="#" target="_blank" class="header__link">ytube</a></li>
-        <li><a href="#" target="_blank" class="header__link">tlgrm</a></li>
-        <li><a href="#" target="_blank" class="header__link">vk</a></li>
+        <li><a href="#" target="_blank" class="header__link hamburger__item">fb</a></li>
+        <li><a href="#" target="_blank" class="header__link hamburger__item">inst</a></li>
+        <li><a href="#" target="_blank" class="header__link hamburger__item">ytube</a></li>
+        <li><a href="#" target="_blank" class="header__link hamburger__item">tlgrm</a></li>
+        <li><a href="#" target="_blank" class="header__link hamburger__item">vk</a></li>
       </ul>
+      <a href="#" target="_blank" class="header__pay-link hamburger__item"><div class="header__dagger"></div> Поддержать</a>
     </nav>
-    <a href="#" target="_blank" class="header__pay-link"><div class="header__dagger"></div> Поддержать</a>
-    <a href="#" class="header__return-link"> Проекты<div class="header__return-link-arrow"></div></a>
+    <a href="#" class="header__return-link"> Проекты<svg class="header__return-link-arrow arrow">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.7232e-08 6.52344L0.724826 5.79861L6.52344 -2.21465e-08L7.22631 0.702867L1.90563 6.02354L21 6.02354L21 7.02354L1.94976 7.02354L7.20139 12.2752L6.47656 13L0.702867 7.22631L7.7232e-08 6.52344Z"/>
+      </svg></a>
   </header>
   <main class="main">
     <!-- Соня -->
