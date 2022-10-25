@@ -11,4 +11,13 @@
 .splide:not(.is-overflow) .slider__button {
   display: none;
 }
-
+.slider__button:disabled .buttons__right-arrow{
+  transition: none;
+  background-color: inherit;
+}
+.slider__button:disabled .buttons__right-arrow:hover::after{
+  display: none;
+}
+.slider__button:disabled .buttons__right-arrow:hover .buttons__link-arrow{
+  fill: inherit;
+}
