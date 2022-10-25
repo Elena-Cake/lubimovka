@@ -11,6 +11,7 @@
   cursor: pointer;
   transition: 0.20s 0.19s ease-out;
   margin-left: 5px;
+  display: block;
 }
 
 .buttons__right-arrow:hover {
