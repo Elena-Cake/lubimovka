@@ -11,6 +11,17 @@
   margin: 0 0.7vw 0.9vw 0.56vw;
   display: flex;
   text-transform: uppercase;
+  transition: all .4s ease;
+}
+
+.header__pay-link:hover {
+  background: #242424;
+  color: #fff;
+}
+
+.header__pay-link:hover .header__dagger-rect {
+  fill: #fff;
+  transition: all .4s ease;
 }
 
 @media screen and (min-width: 1440px) {

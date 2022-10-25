@@ -1,0 +1,4 @@
+.gallery-photo__container {
+  display: inline-block;
+  overflow: hidden;
+}
