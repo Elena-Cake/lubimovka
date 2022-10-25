@@ -2,4 +2,7 @@
   color: inherit;
   text-decoration: underline;
   text-decoration-skip-ink: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
 }

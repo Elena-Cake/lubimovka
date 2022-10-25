@@ -3,9 +3,28 @@
   font-family: 'Neue Machina';
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
-  line-height: 32px;
+  font-size: calc(20px + 8 * (100vw / 1440));
+  line-height: 1.14;
   letter-spacing: -0.01em;
   margin: 0;
   grid-area: paragraph;
+}
+
+@media screen and (min-width: 1440px) {
+  .intro__paragraph {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__paragraph {
+    margin: 0 0 14px 20.8vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  .intro__paragraph {
+    max-width: 314px;
+    font-size: 20px;
+    line-height: 24px;
+  }
 }

@@ -3,8 +3,21 @@
   font-family: 'Neue Machina';
   font-style: normal;
   font-weight: 400;
-  font-size: 72px;
-  line-height: 70px;
+  font-size: calc(22px + 50 * (100vw / 1440));
+  line-height: 1;
   margin: 0;
   grid-area: title;
+}
+
+@media screen and (min-width: 1440px) {
+  .intro__title {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__title {
+    font-size: 40px;
+    margin-left: 6vw;
+  }
 }

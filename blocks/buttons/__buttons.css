@@ -1,0 +1,26 @@
+.buttons {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-color: white;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 40%
+}
+
+.button-left {
+  left: -77px;
+}
+
+.button-right {
+  right: -77px;
+}
+
+
+.buttons_position {
+  display: flex;
+  align-items: center;
+}

@@ -7,3 +7,9 @@
   max-width: 410px;
   margin: 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .reference__description {
+    max-width: 303px;
+  }
+}

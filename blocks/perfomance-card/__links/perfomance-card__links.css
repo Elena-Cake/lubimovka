@@ -1,0 +1,13 @@
+.perfomance-card__links {
+  grid-area: links;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+  .perfomance-card__links {
+    flex-direction: row;
+    gap: 26px;
+  }
+}

@@ -1,0 +1,75 @@
+.buttons__right-arrow {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  position: relative;
+  border: none;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 47%;
+  cursor: pointer;
+  transition: 0.20s 0.19s ease-out;
+  margin-left: 5px;
+}
+
+.buttons__right-arrow:hover {
+  background-color: black;
+}
+
+
+.buttons__right-arrow::before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0px;
+  right: 0px;
+  border: 1px solid black;
+  border-left: none;
+  border-radius: 50px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background-color: transparent;
+  width: 24px;
+  height: 48px;
+  /* margin-left: 3px; */
+ }
+
+.buttons__right-arrow::after {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0px;
+  right: 0px;
+  border: 1px solid black;
+  border-left: none;
+  border-radius: 50px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background-color: transparent;
+  width: 24px;
+  height: 48px;
+  margin-left: 3px;
+  transform-origin: center left
+}
+
+.buttons__right-arrow:hover::after {
+  transform: rotate(180deg);
+  transition: transform 0.20s;
+}
+
+
+.buttons__link-arrow {
+  fill: #242424;
+  height: 49px;
+  width: 30px;
+
+}
+
+.buttons__right-arrow:hover .buttons__link-arrow {
+  fill: #fff;
+}
+
+.splide__arrow--prev svg {
+  transform: scaleX(1);
+}

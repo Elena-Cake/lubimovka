@@ -1,0 +1,13 @@
+.footer__address-heading {
+  margin: 0;
+  padding-bottom: 19px;
+  max-width: 231px;
+  font-size: 20px;
+  line-height: calc(24 / 20 * 100%);
+}
+
+@media screen and (max-width: 767px) {
+  .footer__address-heading {
+    padding-bottom: 6px;
+  }
+}

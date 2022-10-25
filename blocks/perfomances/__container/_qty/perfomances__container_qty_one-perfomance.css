@@ -1,0 +1,11 @@
+.perfomances__container_qty_one-perfomance {
+  display: flex;
+  gap: 60px;
+  margin-top: 183px;
+}
+
+@media screen and (max-width: 767px) {
+  .perfomances__container_qty_one-perfomance {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+.header__dagger {
+  width: 1.74vw;
+  height: 1.74vw;
+  background-image: url(../../../images/icon-adding-button.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1440px) {
+  .header__dagger {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__dagger {
+    width: 25px;
+    height: 25px;
+  }
+}

@@ -3,3 +3,9 @@
   width: 50%;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 767px) {
+  .video__description {
+    width: calc(100% * 366/414);
+  }
+}

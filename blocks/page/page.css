@@ -1,8 +1,8 @@
 .page {
-  background-color: #E5E5E5;;
+  background-color: #ECEBE8;
   color: #242424;
   max-width: 1440px;
-  min-width: 414px;
+  /* min-width: 414px; */
   /*height: 100%; */
   margin: 0 auto;
   font-family: "Formular", Arial, Helvetica, sans-serif;
@@ -11,4 +11,7 @@
 }
 
 /* Formular используется для основного текста,
+
 для заголовков нужно будет прописать Neue Machina отдельно*/
+
+/* div, section, image, p, h1, h2, nav, ul, a, header, footer {outline: 1px solid green;} */

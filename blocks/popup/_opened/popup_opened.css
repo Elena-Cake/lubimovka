@@ -1,0 +1,6 @@
+.popup_opened {
+  /* visibility:visible; */
+  display: inherit;
+  opacity:1;
+  display: flex;
+}

@@ -1,0 +1,8 @@
+@media screen and (max-width: 767px) {
+  .footer__text_accent_underline {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  }
+}
+
+
