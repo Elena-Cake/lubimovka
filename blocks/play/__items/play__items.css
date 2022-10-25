@@ -6,7 +6,6 @@
     gap: calc(100% * 30/1320);
     max-width: 1320px;
     width: 100%;
-    overflow: hidden;
     grid-template-columns: repeat(5, 1fr);
 }
 

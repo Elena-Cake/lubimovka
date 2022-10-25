@@ -23,3 +23,18 @@ var splide2 = new Splide( '#splide_place_gallery-popup', {
   // fixedWidth : '75vw',
 } );
 
+var splidePlay = new Splide( '#splide_place_play', {
+  perPage: 5,
+  focus: 0,
+  autoWidth: true,
+  omitEnd: true,
+  drag: 'free',
+  snap: false,
+  mediaQuery: 'min',
+  breakpoints: {
+    1279: {
+      destroy: true,
+    },
+  }
+} );
+splidePlay.mount();
