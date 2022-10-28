@@ -19,7 +19,7 @@
 <body class="page">
   <!-- Саша -->
   <header class="header">
-    <input class="hamburger" id="hamburger" type="checkbox" />
+    <input class="hamburger" id="hamburger" type="checkbox">
     <label class="hamburger__button" for="hamburger">
       <span class="hamburger__line"></span>
     </label>
@@ -42,7 +42,7 @@
         <li><a href="#" target="_blank" class="header__link hamburger__item">tlgrm</a></li>
         <li><a href="#" target="_blank" class="header__link hamburger__item">vk</a></li>
       </ul>
-      <a href="#" target="_blank" class="header__pay-link hamburger__item"><div class="header__dagger"></div> Поддержать</a>
+      <a href="#" target="_blank" class="header__pay-link hamburger__item"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="header__dagger"><rect x="12" y="6" width="1" height="13" class="header__dagger-rect"/><rect x="19" y="12" width="1" height="13" transform="rotate(90 19 12)" class="header__dagger-rect"/></svg> Поддержать</a>
     </nav>
     <a href="#" class="header__return-link"> Проекты<svg class="header__return-link-arrow arrow">
       <path fill-rule="evenodd" clip-rule="evenodd" d="M7.7232e-08 6.52344L0.724826 5.79861L6.52344 -2.21465e-08L7.22631 0.702867L1.90563 6.02354L21 6.02354L21 7.02354L1.94976 7.02354L7.20139 12.2752L6.47656 13L0.702867 7.22631L7.7232e-08 6.52344Z"/>
@@ -148,14 +148,14 @@
     <section class="gallery">
       <h2 class="gallery__title section-title">Заголовок блока с фотографиями</h2>
       <ul class="gallery-photo">
-        <li><img class="gallery-photo__item" src="./images/gallery-1.jpg" alt="2 актера"></li>
-        <li><img class="gallery-photo__item" src="./images/gallery-5.jpg" alt="монолог актрисы"></li>
-        <li><img class="gallery-photo__item" src="./images/gallery-8.jpg" alt="фотография актера"></li>
-        <li><img class="gallery-photo__item" src="./images/gallery-3.jpg" alt="хор"></li>
-        <li><img class="gallery-photo__item" src="./images/gallery-6.jpg" alt="зрительный зал со зрителями"></li>
-        <li><img class="gallery-photo__item" src="./images/gallery-4.jpg" alt="фотография актера"></li>
-        <li><img class="gallery-photo__item" src="./images/gallery-7.jpg" alt="чб фотография хора"></li>
-        <li><img class="gallery-photo__item" src="./images/gallery-2.jpg" alt="фотография актера"></li>
+        <li class="gallery-photo__container"><img class="gallery-photo__item" src="./images/gallery-1.jpg" alt="2 актера"></li>
+        <li class="gallery-photo__container"><img class="gallery-photo__item" src="./images/gallery-5.jpg" alt="монолог актрисы"></li>
+        <li class="gallery-photo__container"><img class="gallery-photo__item" src="./images/gallery-8.jpg" alt="фотография актера"></li>
+        <li class="gallery-photo__container"><img class="gallery-photo__item" src="./images/gallery-3.jpg" alt="хор"></li>
+        <li class="gallery-photo__container"><img class="gallery-photo__item" src="./images/gallery-6.jpg" alt="зрительный зал со зрителями"></li>
+        <li class="gallery-photo__container"><img class="gallery-photo__item" src="./images/gallery-4.jpg" alt="фотография актера"></li>
+        <li class="gallery-photo__container"><img class="gallery-photo__item" src="./images/gallery-7.jpg" alt="чб фотография хора"></li>
+        <li class="gallery-photo__container"><img class="gallery-photo__item" src="./images/gallery-2.jpg" alt="фотография актера"></li>
       </ul>
     </section>
     <!-- Стас -->
@@ -166,18 +166,18 @@
           <ul class="splide__pagination"></ul>
           <div class="splide__arrows">
             <button class="splide__arrow splide__arrow--prev slider__button">
-              <div class="buttons__right-arrow buttons__left-arrow">
-                <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
-                  </svg>
-              </div>
-            </button>
-            <button class="splide__arrow splide__arrow--next slider__button">
-              <div class="buttons__right-arrow">
+              <span class="buttons__right-arrow buttons__left-arrow">
                 <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
                 </svg>
-                </div>
+              </span>
+            </button>
+            <button class="splide__arrow splide__arrow--next slider__button">
+              <span class="buttons__right-arrow">
+                <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -198,14 +198,14 @@
                   <p class="perfomance-card__paragraph">читка проекта Любимовка.Ещё</p>
                 </div>
                 <div class="perfomance-card__links">
-                  <a class="link perfomance-card__link" href="#" target="_blank">
-                    <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                  <a class="link perfomance-card__link animation-progress" href="#" target="_blank">
+                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
                     </svg>О спектакле
                   </a>
-                  <a class="link perfomance-card__link" href="#" target="_blank">
-                    <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                  <a class="link perfomance-card__link animation-progress" href="#" target="_blank">
+                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
                     </svg>Билеты
                   </a>
                 </div>
@@ -227,14 +227,14 @@
                   <p class="perfomance-card__paragraph">читка проекта Любимовка.Ещё</p>
                 </div>
                 <div class="perfomance-card__links">
-                  <a class="link perfomance-card__link" href="#" target="_blank">
-                    <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                  <a class="link perfomance-card__link animation-progress" href="#" target="_blank">
+                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
                     </svg>О спектакле
                   </a>
-                  <a class="link perfomance-card__link" href="#" target="_blank">
-                    <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                  <a class="link perfomance-card__link animation-progress" href="#" target="_blank">
+                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
                     </svg>Билеты
                   </a>
                 </div>
@@ -256,14 +256,14 @@
                   <p class="perfomance-card__paragraph">читка проекта Любимовка.Ещё</p>
                 </div>
                 <div class="perfomance-card__links">
-                  <a class="link perfomance-card__link" href="#" target="_blank">
-                    <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                  <a class="link perfomance-card__link animation-progress" href="#" target="_blank">
+                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
                     </svg>О спектакле
                   </a>
-                  <a class="link perfomance-card__link" href="#" target="_blank">
-                    <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                  <a class="link perfomance-card__link animation-progress" href="#" target="_blank">
+                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
                     </svg>Билеты
                   </a>
                 </div>
@@ -291,14 +291,14 @@
                 <p class="perfomance-card__paragraph">читка проекта Любимовка.Ещё</p>
               </div>
               <div class="perfomance-card__links">
-                <a class="link perfomance-card__link" href="#" target="_blank">
-                  <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                <a class="link perfomance-card__link animation-progress" href="#" target="_blank">
+                  <svg class="arrow" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
                   </svg>О спектакле
                 </a>
-                <a class="link perfomance-card__link" href="#" target="_blank">
-                  <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                <a class="link perfomance-card__link animation-progress" href="#" target="_blank">
+                  <svg class="arrow" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
                   </svg>Билеты
                 </a>
               </div>
@@ -320,14 +320,14 @@
                 <p class="perfomance-card__paragraph">читка проекта Любимовка.Ещё</p>
               </div>
               <div class="perfomance-card__links">
-                <a class="link perfomance-card__link" href="#" target="_blank">
-                  <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                <a class="link perfomance-card__link animation-progress" href="#" target="_blank">
+                  <svg class="arrow" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
                   </svg>О спектакле
                 </a>
-                <a class="link perfomance-card__link" href="#" target="_blank">
-                  <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+                <a class="link perfomance-card__link animation-progress" href="#" target="_blank">
+                  <svg class="arrow" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
                   </svg>Билеты
                 </a>
               </div>
@@ -352,14 +352,14 @@
             <p class="perfomance-card__paragraph">читка проекта Любимовка.Ещё</p>
           </div>
           <div class="perfomance-card__links">
-            <a class="link perfomance-card__link" href="#" target="_blank">
-              <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+            <a class="link perfomance-card__link animation-progress" href="#" target="_blank">
+              <svg class="arrow" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
               </svg>О спектакле
             </a>
-            <a class="link perfomance-card__link" href="#" target="_blank">
-              <svg class="link__arrow-image" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+            <a class="link perfomance-card__link animation-progress" href="#" target="_blank">
+              <svg class="arrow" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
               </svg>Билеты
             </a>
           </div>
@@ -371,117 +371,95 @@
     <section class="play">
       <div class="splide" id ='splide_place_play' role="group">
         <h2 class="play__title section-title">Заголовок блока с пьесами</h2>
-        <div class='slider__buttons-container slider__buttons-container_place_play'>
-          <ul class="splide__pagination"></ul>
-          <div class="splide__arrows">
-            <button class="splide__arrow splide__arrow--prev slider__button">
-              <div class="buttons__right-arrow buttons__left-arrow">
-                <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
-                  </svg>
-              </div>
-            </button>
-            <button class="splide__arrow splide__arrow--next slider__button">
-              <div class="buttons__right-arrow">
-                <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
-                </svg>
+        <ul class="play__items">
+            <li class="play__item">
+                <div class="play__cart">
+                    <h3 class="play__name">Солнечная линия</h3>
+                    <a class="play__link play__look-link" href="#">
+                        <p class="play__link-text">СМОТРЕТЬ ЧИТКУ</p>
+                        <svg class="play__arrow arrow">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9082 5.05887L19.9082 6.08393L19.9082 14.2844L18.9142 14.2844L18.9142 6.75983L5.41247 20.2616L4.70536 19.5545L18.1759 6.08393L10.749 6.08393L10.749 5.05887L18.9142 5.05887L19.9082 5.05887Z"/>
+                        </svg>
+                    </a>
+                    <a class="play__link play__download-link" href="#">
+                        <p class="play__link-text">СКАЧАТЬ ПЬЕСУ</p>
+                        <svg class="play__arrow arrow">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5234 21L11.7986 20.2752L6 14.4766L6.70287 13.7737L12.0235 19.0944L12.0235 0H13.0235L13.0235 19.0502L18.2752 13.7986L19 14.5234L13.2263 20.2971L12.5234 21Z"/>
+                        </svg>
+                    </a>
                 </div>
-            </button>
-          </div>
-        </div>
-        <div class="splide__track">
-          <ul class="splide__list play__items">
-              <li class="splide__slide play__item">
-                  <div class="play__cart">
-                      <h3 class="play__name">Солнечная линия</h3>
-                      <a class="play__link play__look-link" href="#">
-                          <p class="play__link-text">СМОТРЕТЬ ЧИТКУ</p>
-                          <svg class="play__arrow arrow"> 
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9082 5.05887L19.9082 6.08393L19.9082 14.2844L18.9142 14.2844L18.9142 6.75983L5.41247 20.2616L4.70536 19.5545L18.1759 6.08393L10.749 6.08393L10.749 5.05887L18.9142 5.05887L19.9082 5.05887Z"/>
-                          </svg>
-                      </a>
-                      <a class="play__link play__download-link" href="#">
-                          <p class="play__link-text">СКАЧАТЬ ПЬЕСУ</p>
-                          <svg class="play__arrow arrow">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5234 21L11.7986 20.2752L6 14.4766L6.70287 13.7737L12.0235 19.0944L12.0235 0H13.0235L13.0235 19.0502L18.2752 13.7986L19 14.5234L13.2263 20.2971L12.5234 21Z"/>
-                          </svg>
-                      </a>
-                  </div>
-                  <p class="play__actor">Екатерина Августеняк</p>
-                  <p class="play__place">Санкт-Петербург 2020</p>
-              </li>
-              <li class="splide__slide play__item">
-                  <div class="play__cart">
-                      <h3 class="play__name">МАМА</h3>
-                      <a class="play__link play__look-link" href="#">
-                          <p class="play__link-text">СМОТРЕТЬ ЧИТКУ</p>
-                          <svg class="play__arrow arrow"> 
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9082 5.05887L19.9082 6.08393L19.9082 14.2844L18.9142 14.2844L18.9142 6.75983L5.41247 20.2616L4.70536 19.5545L18.1759 6.08393L10.749 6.08393L10.749 5.05887L18.9142 5.05887L19.9082 5.05887Z"/>
-                          </svg>                    </a>
-                      <a class="play__link play__download-link" href="#">
-                          <p class="play__link-text">СКАЧАТЬ ПЬЕСУ</p>
-                          <svg class="play__arrow arrow">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5234 21L11.7986 20.2752L6 14.4766L6.70287 13.7737L12.0235 19.0944L12.0235 0H13.0235L13.0235 19.0502L18.2752 13.7986L19 14.5234L13.2263 20.2971L12.5234 21Z"/>
-                          </svg>                    </a>
-                  </div>
-                  <p class="play__actor">Екатерина Августеняк</p>
-                  <p class="play__place">Санкт-Петербург 2020</p>
-              </li>
-              <li class="splide__slide play__item">
-                  <div class="play__cart">
-                      <h3 class="play__name">Конкретные разговоры пожилых супругов ни о чём</h3>
-                      <a class="play__link play__look-link" href="#">
-                          <p class="play__link-text">СМОТРЕТЬ ЧИТКУ</p>
-                          <svg class="play__arrow arrow"> 
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9082 5.05887L19.9082 6.08393L19.9082 14.2844L18.9142 14.2844L18.9142 6.75983L5.41247 20.2616L4.70536 19.5545L18.1759 6.08393L10.749 6.08393L10.749 5.05887L18.9142 5.05887L19.9082 5.05887Z"/>
-                          </svg>                    </a>
-                      <a class="play__link play__download-link" href="#">
-                          <p class="play__link-text">СКАЧАТЬ ПЬЕСУ</p>
-                          <svg class="play__arrow arrow">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5234 21L11.7986 20.2752L6 14.4766L6.70287 13.7737L12.0235 19.0944L12.0235 0H13.0235L13.0235 19.0502L18.2752 13.7986L19 14.5234L13.2263 20.2971L12.5234 21Z"/>
-                          </svg>                    </a>
-                  </div>
-                  <p class="play__actor">Екатерина Августеняк</p>
-                  <p class="play__place">Санкт-Петербург 2020</p>
-              </li>
-              <li class="splide__slide play__item">
-                  <div class="play__cart">
-                      <h3 class="play__name">Опус ДНК</h3>
-                      <a class="play__link play__look-link" href="#">
-                          <p class="play__link-text">СМОТРЕТЬ ЧИТКУ</p>
-                          <svg class="play__arrow arrow"> 
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9082 5.05887L19.9082 6.08393L19.9082 14.2844L18.9142 14.2844L18.9142 6.75983L5.41247 20.2616L4.70536 19.5545L18.1759 6.08393L10.749 6.08393L10.749 5.05887L18.9142 5.05887L19.9082 5.05887Z"/>
-                          </svg>                    </a>
-                      <a class="play__link play__download-link" href="#">
-                          <p class="play__link-text">СКАЧАТЬ ПЬЕСУ</p>
-                          <svg class="play__arrow arrow">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5234 21L11.7986 20.2752L6 14.4766L6.70287 13.7737L12.0235 19.0944L12.0235 0H13.0235L13.0235 19.0502L18.2752 13.7986L19 14.5234L13.2263 20.2971L12.5234 21Z"/>
-                          </svg>                    </a>
-                  </div>
-                  <p class="play__actor">Екатерина Августеняк</p>
-                  <p class="play__place">Санкт-Петербург 2020</p>
-              </li>
-              <li class="splide__slide play__item">
-                  <div class="play__cart">
-                      <h3 class="play__name">МАМА</h3>
-                      <a class="play__link play__look-link" href="#">
-                          <p class="play__link-text">СМОТРЕТЬ ЧИТКУ</p>
-                          <svg class="play__arrow arrow"> 
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9082 5.05887L19.9082 6.08393L19.9082 14.2844L18.9142 14.2844L18.9142 6.75983L5.41247 20.2616L4.70536 19.5545L18.1759 6.08393L10.749 6.08393L10.749 5.05887L18.9142 5.05887L19.9082 5.05887Z"/>
-                          </svg>                    </a>
-                      <a class="play__link play__download-link" href="#">
-                          <p class="play__link-text">СКАЧАТЬ ПЬЕСУ</p>
-                          <svg class="play__arrow arrow">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5234 21L11.7986 20.2752L6 14.4766L6.70287 13.7737L12.0235 19.0944L12.0235 0H13.0235L13.0235 19.0502L18.2752 13.7986L19 14.5234L13.2263 20.2971L12.5234 21Z"/>
-                          </svg>                    </a>
-                  </div>
-                  <p class="play__actor">Екатерина Августеняк</p>
-                  <p class="play__place">Санкт-Петербург 2020</p>
-              </li>
-          </ul>
-        </div>
-      </div>
+                <p class="play__actor">Екатерина Августеняк</p>
+                <p class="play__place">Санкт-Петербург 2020</p>
+            </li>
+            <li class="play__item">
+                <div class="play__cart">
+                    <h3 class="play__name">МАМА</h3>
+                    <a class="play__link play__look-link" href="#">
+                        <p class="play__link-text">СМОТРЕТЬ ЧИТКУ</p>
+                        <svg class="play__arrow arrow">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9082 5.05887L19.9082 6.08393L19.9082 14.2844L18.9142 14.2844L18.9142 6.75983L5.41247 20.2616L4.70536 19.5545L18.1759 6.08393L10.749 6.08393L10.749 5.05887L18.9142 5.05887L19.9082 5.05887Z"/>
+                        </svg>                    </a>
+                    <a class="play__link play__download-link" href="#">
+                        <p class="play__link-text">СКАЧАТЬ ПЬЕСУ</p>
+                        <svg class="play__arrow arrow">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5234 21L11.7986 20.2752L6 14.4766L6.70287 13.7737L12.0235 19.0944L12.0235 0H13.0235L13.0235 19.0502L18.2752 13.7986L19 14.5234L13.2263 20.2971L12.5234 21Z"/>
+                        </svg>                    </a>
+                </div>
+                <p class="play__actor">Екатерина Августеняк</p>
+                <p class="play__place">Санкт-Петербург 2020</p>
+            </li>
+            <li class="play__item">
+                <div class="play__cart">
+                    <h3 class="play__name">Конкретные разговоры пожилых супругов ни о чём</h3>
+                    <a class="play__link play__look-link" href="#">
+                        <p class="play__link-text">СМОТРЕТЬ ЧИТКУ</p>
+                        <svg class="play__arrow arrow">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9082 5.05887L19.9082 6.08393L19.9082 14.2844L18.9142 14.2844L18.9142 6.75983L5.41247 20.2616L4.70536 19.5545L18.1759 6.08393L10.749 6.08393L10.749 5.05887L18.9142 5.05887L19.9082 5.05887Z"/>
+                        </svg>                    </a>
+                    <a class="play__link play__download-link" href="#">
+                        <p class="play__link-text">СКАЧАТЬ ПЬЕСУ</p>
+                        <svg class="play__arrow arrow">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5234 21L11.7986 20.2752L6 14.4766L6.70287 13.7737L12.0235 19.0944L12.0235 0H13.0235L13.0235 19.0502L18.2752 13.7986L19 14.5234L13.2263 20.2971L12.5234 21Z"/>
+                        </svg>                    </a>
+                </div>
+                <p class="play__actor">Екатерина Августеняк</p>
+                <p class="play__place">Санкт-Петербург 2020</p>
+            </li>
+            <li class="play__item">
+                <div class="play__cart">
+                    <h3 class="play__name">Опус ДНК</h3>
+                    <a class="play__link play__look-link" href="#">
+                        <p class="play__link-text">СМОТРЕТЬ ЧИТКУ</p>
+                        <svg class="play__arrow arrow">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9082 5.05887L19.9082 6.08393L19.9082 14.2844L18.9142 14.2844L18.9142 6.75983L5.41247 20.2616L4.70536 19.5545L18.1759 6.08393L10.749 6.08393L10.749 5.05887L18.9142 5.05887L19.9082 5.05887Z"/>
+                        </svg>                    </a>
+                    <a class="play__link play__download-link" href="#">
+                        <p class="play__link-text">СКАЧАТЬ ПЬЕСУ</p>
+                        <svg class="play__arrow arrow">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5234 21L11.7986 20.2752L6 14.4766L6.70287 13.7737L12.0235 19.0944L12.0235 0H13.0235L13.0235 19.0502L18.2752 13.7986L19 14.5234L13.2263 20.2971L12.5234 21Z"/>
+                        </svg>                    </a>
+                </div>
+                <p class="play__actor">Екатерина Августеняк</p>
+                <p class="play__place">Санкт-Петербург 2020</p>
+            </li>
+            <li class="play__item">
+                <div class="play__cart">
+                    <h3 class="play__name">МАМА</h3>
+                    <a class="play__link play__look-link" href="#">
+                        <p class="play__link-text">СМОТРЕТЬ ЧИТКУ</p>
+                        <svg class="play__arrow arrow">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9082 5.05887L19.9082 6.08393L19.9082 14.2844L18.9142 14.2844L18.9142 6.75983L5.41247 20.2616L4.70536 19.5545L18.1759 6.08393L10.749 6.08393L10.749 5.05887L18.9142 5.05887L19.9082 5.05887Z"/>
+                        </svg>                    </a>
+                    <a class="play__link play__download-link" href="#">
+                        <p class="play__link-text">СКАЧАТЬ ПЬЕСУ</p>
+                        <svg class="play__arrow arrow">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5234 21L11.7986 20.2752L6 14.4766L6.70287 13.7737L12.0235 19.0944L12.0235 0H13.0235L13.0235 19.0502L18.2752 13.7986L19 14.5234L13.2263 20.2971L12.5234 21Z"/>
+                        </svg>                    </a>
+                </div>
+                <p class="play__actor">Екатерина Августеняк</p>
+                <p class="play__place">Санкт-Петербург 2020</p>
+            </li>
+        </ul>
     </section>
     <!-- Саша -->
     <section class="persons">
@@ -546,22 +524,22 @@
         <h2 class="footer__partners-heading footer__partners-heading_display-visibility_mobile">Онлайн-трансляции</h2>
         <ul class="footer__links footer__links_content_partners">
           <li>
-            <a href="https://www.prokhorovfund.ru/" target="_blank" class="footer__link">
+            <a href="https://www.prokhorovfund.ru/" target="_blank" class="footer__link-logo">
               <img src="./images/logo-prokhorov.svg" alt="Логотип Фонда Михаила Прохорова" class="footer__partner-logo">
             </a>
           </li>
           <li>
-            <a href="https://mosbrew.ru/" target="_blank" class="footer__link">
+            <a href="https://mosbrew.ru/" target="_blank" class="footer__link-logo">
               <img src="./images/logo-mosbrew.svg" alt="Логотип ЗАО 'Московская пивоваренная компания'" class="footer__partner-logo">
             </a>
           </li>
           <li>
-            <a href="https://sbtg.ru/" target="_blank" class="footer__link">
+            <a href="https://sbtg.ru/" target="_blank" class="footer__link-logo">
               <img src="./images/logo-sbtg.svg" alt="Логотип организации интернет-трансляций и вебинаров" class="footer__partner-logo">
             </a>
           </li>
           <li>
-            <a href="https://www.youtube.com/channel/UCp2J7GRxQ36QLqW4ReLLt5g" target="_blank" class="footer__link">
+            <a href="https://www.youtube.com/channel/UCp2J7GRxQ36QLqW4ReLLt5g" target="_blank" class="footer__link-logo">
               <img src="./images/logo-talk.svg" alt="Логотип авторского канала на YouTube 'А поговорить?'" class="footer__partner-logo">
             </a>
           </li>
@@ -615,12 +593,12 @@
           <div class="footer__icon-decorative"></div>
           <p class="footer__authors-designers">
           дизайн сайта &mdash;
-            <a href="https://ru.shishki.co/" target="_blank" class="footer__link" lang="en"><span class="footer__text_accent_underline">shishki.collective</span></a>
+            <a href="https://ru.shishki.co/" target="_blank" class="footer__link-authors" lang="en">shishki.collective</a>
           </p>
         </div>
         <p class="footer__authors-developers">
         вёрстка и разработка &mdash; студенты
-          <a href="https://practicum.yandex.ru/" target="_blank" class="footer__link"><span class="footer__text_accent_underline">Яндекс.Практикума</span></a>
+          <a href="https://practicum.yandex.ru/" target="_blank" class="footer__link-authors">Яндекс.Практикума</a>
         </p>
       </div>
     </div>
@@ -631,22 +609,22 @@
       <button class="buttons buttons__close-icon links" type="button"></button>
       <div class="splide__arrows buttons_position">
         <button class="splide__arrow splide__arrow--prev buttons button-left" type="button">
-          <div class="buttons__right-arrow buttons__left-arrow">
+          <span class="buttons__right-arrow buttons__left-arrow">
             <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
-              </svg>
-          </div>
+            </svg>
+          </span>
         </button>
         <div class="splide__track">
           <ul class="splide__list popup__photo-container">
         </ul>
         </div>
         <button class="splide__arrow splide__arrow--next buttons button-right" type="button">
-        <div class="buttons__right-arrow">
-          <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
-          </svg>
-          </div>
+          <span class="buttons__right-arrow">
+            <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
+            </svg>
+          </span>
         </button>
       </div>
     </figure>
