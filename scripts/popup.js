@@ -19,17 +19,20 @@ const galleryPhoto = gallery.querySelectorAll('.gallery-photo__item');
 const picture = document.querySelector('.popup__picture');
 const photoContainer = document.querySelector('.popup__photo-container')
 const photosTemplate = document.querySelector('.photos').content;
+const ul = document.querySelector('.gallery-photo')
 
 fillPopup();
 
-galleryPhoto.forEach( item => {
+galleryPhoto.forEach( function (item, i) {
   item.addEventListener('click', () => {
     openPopup(galleryPopup);
+    console.log(i);
+    splide2.options = {start: i};
     document.addEventListener("keydown", closeOnButtonEscape);
   })
 })
 
-function fillPopup() {
+function fillPopup(evt) {
   const photos = Array.from(galleryPhoto);
   photos.forEach( item => {
     const imgPopup = photosTemplate.cloneNode(true);
