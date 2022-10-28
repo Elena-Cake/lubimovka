@@ -19,8 +19,6 @@ var splide2 = new Splide( '#splide_place_gallery-popup', {
   rewind: true,
   rewindByDrag: true,
   gap: '20px'
-  // width: '75vw'
-  // fixedWidth : '75vw',
 } );
 
 var splidePlay = new Splide( '#splide_place_play', {
