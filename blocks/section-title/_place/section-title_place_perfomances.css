@@ -7,5 +7,6 @@
 @media screen and (max-width: 767px) {
   .section-title_place_perfomances {
     margin-bottom: 34px;
+    margin-left: calc(100% * 24/414);
 }
 }
