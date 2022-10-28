@@ -1,0 +1,10 @@
+.developers__cards {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}

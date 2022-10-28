@@ -107,8 +107,7 @@
 @import url(../blocks/play/__link/play__link.css);
 @import url(../blocks/play/__link-text/play__link-text.css);
 @import url(../blocks/play/__arrow/play__arrow.css);
-@import url(../blocks/play/__arrow/_direction/play__arrow_direction_right.css);
-@import url(../blocks/play/__arrow/_direction/play__arrow_direction_bottom.css);
+@import url(../blocks/slider/__buttons-container/_place/slider__buttons-container_place_play.css);
 
 /* persons */
 @import url(../blocks/persons/persons.css);
@@ -173,3 +172,13 @@
 @import url(../blocks/buttons/__close-icon/buttons__close-icon.css);
 @import url(../blocks/buttons/__right-button/buttons__right-button.css);
 @import url(../blocks/buttons/__left-arrow/buttons__left-arrow.css);
+
+
+/* developers */
+@import url(../blocks/developers/developers.css);
+@import url(../blocks/developers/__title/developers__title.css);
+@import url(../blocks/developers/__cards/developers__cards.css);
+@import url(../blocks/developers/__card/developers__card.css);
+@import url(../blocks/developers/__photo/developers__photo.css);
+@import url(../blocks/developers/__name/developers__name.css);
+@import url(../blocks/developers/__subtitle/developers__subtitle.css);
