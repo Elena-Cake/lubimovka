@@ -2,4 +2,5 @@
     display: flex;
     flex-direction: column;
     width: 210px;
+    margin-bottom: 20px;
 }
