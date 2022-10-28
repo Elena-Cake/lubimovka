@@ -172,3 +172,13 @@
 @import url(../blocks/buttons/__close-icon/buttons__close-icon.css);
 @import url(../blocks/buttons/__right-button/buttons__right-button.css);
 @import url(../blocks/buttons/__left-arrow/buttons__left-arrow.css);
+
+
+/* developers */
+@import url(../blocks/developers/developers.css);
+@import url(../blocks/developers/developers__title/developers__title.css);
+@import url(../blocks/developers/developers__cards/developers__cards.css);
+@import url(../blocks/developers/developers__card/developers__card.css);
+@import url(../blocks/developers/developers__photo/developers__photo.css);
+@import url(../blocks/developers/developers__name/developers__name.css);
+@import url(../blocks/developers/developers__subtitle/developers__subtitle.css);

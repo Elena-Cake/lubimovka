@@ -1,0 +1,22 @@
+.developers {
+    max-width: 930px;
+    margin: 0 auto 0 calc(24px + (100vw - 767px)*264/(1440 - 767));
+    display: flex;
+    flex-direction: column;
+    padding: 55.5px 0;
+    overflow: hidden;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .developers {
+      margin-left: 270px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 767px){
+    .developers {
+      margin-left: 24px;
+    }
+  }
+
