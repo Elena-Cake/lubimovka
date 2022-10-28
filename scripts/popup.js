@@ -26,8 +26,8 @@ fillPopup();
 galleryPhoto.forEach( function (item, i) {
   item.addEventListener('click', () => {
     openPopup(galleryPopup);
-    console.log(i);
-    splide2.options = {start: i};
+    // console.log(splide2.options);
+    splide2.Components.Move.jump(i);
     document.addEventListener("keydown", closeOnButtonEscape);
   })
 })
