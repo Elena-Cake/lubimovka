@@ -25,6 +25,7 @@ fillPopup();
 galleryPhoto.forEach( item => {
   item.addEventListener('click', () => {
     openPopup(galleryPopup);
+    document.addEventListener("keydown", closeOnButtonEscape);
   })
 })
 
@@ -37,9 +38,22 @@ function fillPopup() {
   });
 }
 
-
-console.log()
   closePopup.addEventListener('click', evt => {
     popupClose(galleryPopup);
+    document.removeEventListener("keydown", closeOnButtonEscape);
+  });
+
+
+  function closeOnButtonEscape(evt) {
+    if (evt.key === "Escape") {
+      const popupOpened = document.querySelector(".popup_opened");
+      popupClose(popupOpened);
+    }
+  }
+
+  galleryPopup.addEventListener("mousedown", (evt) => {
+    if (evt.target.classList.contains("popup_opened")) {
+      popupClose(galleryPopup);
+    }
   });
 

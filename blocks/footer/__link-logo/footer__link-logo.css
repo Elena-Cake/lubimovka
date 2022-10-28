@@ -1,0 +1,10 @@
+.footer__link-logo {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  transition: transform .5s ease;
+}
+
+.footer__link-logo:hover {
+  transform: scale(1.04);
+}
