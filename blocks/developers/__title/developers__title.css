@@ -1,11 +1,4 @@
 .developers__title {
-    max-width: 358px;
     margin-bottom: 48px;
-    margin-left: 92px;
 }
 
-@media screen and (max-width: 1023px){
-    .developers__title {
-        margin-left: 0;
-    }
-}
