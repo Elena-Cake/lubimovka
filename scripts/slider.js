@@ -36,3 +36,26 @@ var splidePlay = new Splide( '#splide_place_play', {
   }
 } );
 splidePlay.mount();
+
+var splide = new Splide( '#splide_place_video-m', {
+  perPage: 2,
+  arrowPath: '0',
+  focus: 0,
+  autoWidth: true,
+  omitEnd: true,
+  drag: 'free',
+  snap: false,
+  arrows: false,
+} );
+splide.mount();
+
+var splide = new Splide( '#splide_place_video-l', {
+  perPage: 3,
+  focus: 0,
+  autoWidth: true,
+  omitEnd: true,
+  drag: 'free',
+  snap: false,
+  arrows: false,
+} );
+splide.mount();

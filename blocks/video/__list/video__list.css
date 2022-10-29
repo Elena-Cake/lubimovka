@@ -5,10 +5,9 @@
   margin-top: 45px;
   display: flex;
   justify-content: center;
-  overflow: hidden;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 650px) {
   .video__list {
     justify-content: flex-start;
     margin-top: 32px;
