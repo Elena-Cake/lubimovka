@@ -4,12 +4,12 @@ const galleryPopup = document.querySelector('.popup')
 
 
 function openPopup(popup) {
-  splide2.mount();
+  splideGallery.mount();
   popup.classList.add('popup_opened');
 }
 
 function popupClose(popup) {
-  splide2.destroy();
+  splideGallery.destroy();
   popup.classList.remove('popup_opened');
 }
 
@@ -26,13 +26,13 @@ fillPopup();
 galleryPhoto.forEach( function (item, i) {
   item.addEventListener('click', () => {
     openPopup(galleryPopup);
-    // console.log(splide2.options);
-    splide2.Components.Move.jump(i);
+    splideGallery.Components.Move.jump(i);
+    splideGallery.Components.Controller.setIndex(i);
     document.addEventListener("keydown", closeOnButtonEscape);
   })
 })
 
-function fillPopup(evt) {
+function fillPopup() {
   const photos = Array.from(galleryPhoto);
   photos.forEach( item => {
     const imgPopup = photosTemplate.cloneNode(true);
@@ -41,7 +41,7 @@ function fillPopup(evt) {
   });
 }
 
-  closePopup.addEventListener('click', evt => {
+  closePopup.addEventListener('click', () => {
     popupClose(galleryPopup);
     document.removeEventListener("keydown", closeOnButtonEscape);
   });
