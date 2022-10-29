@@ -62,6 +62,7 @@
 @import url(../blocks/video/__button/video__button.css);
 @import url(../blocks/video/__description/video__description.css);
 @import url(../blocks/video/__list/video__list.css);
+@import url(../blocks/video/__list/_size/video__list_size_l.css);
 @import url(../blocks/video/__list-item/video__list-item.css);
 
 
