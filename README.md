@@ -1,10 +1,10 @@
 # :small_orange_diamond: Страница для сайта фестиваля драматургии "Любимовка"
-*Командная работа студентов Яндекс Практикума:*
-*[:link: Елена Свешникова](https://github.com/Kumiho1) (team leader)*
-*[:link: Александр Товченников](https://github.com/yryryk)*
-*[:link: Софья Пешехонова](https://github.com/sofiapeshekhonova)*
-*[:link: Стас Пройдаков](https://github.com/sasketeen)*
-*[:link: Борис Зашляпин](https://github.com/elrouss)*
+*Командная работа студентов Яндекс Практикума:*  
+*[:link: Елена Свешникова](https://github.com/Kumiho1) (team leader)*  
+*[:link: Александр Товченников](https://github.com/yryryk)*  
+*[:link: Софья Пешехонова](https://github.com/sofiapeshekhonova)*  
+*[:link: Стас Пройдаков](https://github.com/sasketeen)*  
+*[:link: Борис Зашляпин](https://github.com/elrouss)*  
 *[:link: Констанатин Филяев](https://github.com/uzornakovre)*
 ______
 
@@ -29,7 +29,7 @@ ______
 *Проект не входит в программу обучения и является дополнительным*
 ______
 
-[:link: Просмотреть страницу в GitHub Pages](https://Kumiho1.github.io/lubimovka/)
+[:link: Просмотреть страницу в GitHub Pages](https://Kumiho1.github.io/lubimovka/)   
 [:link: Открыть макет в Figma](https://www.figma.com/file/sPmrkcsXbuuHC24zIRktfJ/lubimovka-(pr.page)?node-id=0%3A1)
 ------
 
