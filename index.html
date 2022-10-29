@@ -481,32 +481,53 @@
               </li>
           </ul>
         </div>
-    </section> 
+    </section>
     <!-- Саша -->
-    <section class="persons">
-      <h2 class="persons__title">Заголовок блока с&nbsp;персонами</h2>
-      <ul class="persons__cards">
-        <li class="persons__card">
-          <img class="persons__photo" src="./images/people-1.jpg" alt="">
-          <h3 class="persons__name">Тереза Шимчак</h3>
-          <p class="persons__subtitle">Драматург, сценарист, преподаватель</p>
-        </li>
-        <li class="persons__card">
-          <img class="persons__photo" src="./images/people-2.jpg" alt="">
-          <h3 class="persons__name">Шереза Шимчак</h3>
-          <p class="persons__subtitle">Драматург, сценарист, преподаватель</p>
-        </li>
-        <li class="persons__card">
-          <img class="persons__photo" src="./images/people-3.jpg" alt="">
-          <h3 class="persons__name">Береза Шимчак</h3>
-          <p class="persons__subtitle">Драматург, сценарист, преподаватель</p>
-        </li>
-        <li class="persons__card">
-          <img class="persons__photo" src="./images/people-1.jpg" alt="">
-          <h3 class="persons__name">Тереза Шимчак</h3>
-          <p class="persons__subtitle">Драматург, сценарист, преподаватель</p>
-        </li>
-      </ul>
+    <section class="splide persons" id ='splide_place_persons'>
+      <div class="splide__track">
+        <h2 class="persons__title">Заголовок блока с&nbsp;персонами</h2>
+        <div class='slider__buttons-container persons__buttons-container'>
+          <ul class="splide__pagination"></ul>
+          <div class="splide__arrows">
+            <button class="splide__arrow splide__arrow--prev slider__button">
+              <span class="buttons__right-arrow buttons__left-arrow">
+                <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
+                </svg>
+              </span>
+            </button>
+            <button class="splide__arrow splide__arrow--next slider__button">
+              <span class="buttons__right-arrow">
+                <svg class="buttons__link-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"/>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <ul class="splide__list persons__cards">
+          <li class="splide__slide persons__card">
+            <img class="persons__photo" src="./images/people-1.jpg" alt="">
+            <h3 class="persons__name">Тереза Шимчак</h3>
+            <p class="persons__subtitle">Драматург, сценарист, преподаватель</p>
+          </li>
+          <li class="splide__slide persons__card">
+            <img class="persons__photo" src="./images/people-2.jpg" alt="">
+            <h3 class="persons__name">Шереза Шимчак</h3>
+            <p class="persons__subtitle">Драматург, сценарист, преподаватель</p>
+          </li>
+          <li class="splide__slide persons__card">
+            <img class="persons__photo" src="./images/people-3.jpg" alt="">
+            <h3 class="persons__name">Береза Шимчак</h3>
+            <p class="persons__subtitle">Драматург, сценарист, преподаватель</p>
+          </li>
+          <li class="splide__slide persons__card">
+            <img class="persons__photo" src="./images/people-1.jpg" alt="">
+            <h3 class="persons__name">Тереза Шимчак</h3>
+            <p class="persons__subtitle">Драматург, сценарист, преподаватель</p>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <section class="developers">
@@ -531,7 +552,7 @@
           <img class="developers__photo" src="./images/proydakov.jpg" alt="Пройдаков Стас">
           <h3 class="developers__name">Пройдаков Стас</h3>
           <p class="developers__subtitle">Веб-разработчик, Космический инженер</p>
-        </li> 
+        </li>
         <li class="developers__card">
           <img class="developers__photo" src="./images/zashlyapin.jpg" alt="Зашляпин Борис">
           <h3 class="developers__name">Зашляпин Борис</h3>
