@@ -109,6 +109,7 @@
 @import url(../blocks/play/__link-text/play__link-text.css);
 @import url(../blocks/play/__arrow/play__arrow.css);
 @import url(../blocks/slider/__buttons-container/_place/slider__buttons-container_place_play.css);
+@import url(../blocks/play/__buttons-container/play__buttons-container.css);
 
 /* persons */
 @import url(../blocks/persons/persons.css);
