@@ -118,6 +118,7 @@
 @import url(../blocks/persons/__photo/persons__photo.css);
 @import url(../blocks/persons/__name/persons__name.css);
 @import url(../blocks/persons/__subtitle/persons__subtitle.css);
+@import url(../blocks/persons/__buttons-container/persons__buttons-container.css);
 
 
 /* reference */

@@ -37,6 +37,26 @@ var splidePlay = new Splide( '#splide_place_play', {
 } );
 splidePlay.mount();
 
+var splidePersons = new Splide( '#splide_place_persons', {
+ type: 'loop',
+ perPage: 4,
+ focus: 0,
+ autoWidth: true,
+ omitEnd: true,
+ drag: 'free',
+ snap: false,
+ mediaQuery: 'min',
+ breakpoints: {
+   1100: {
+     destroy: true,
+   },
+   764: {
+     type: 'slide',
+   },
+ }
+} );
+splidePersons.mount();
+
 var splideVideoM = new Splide( '#splide_place_video-m', {
   perPage: 2,
   arrowPath: '0',
