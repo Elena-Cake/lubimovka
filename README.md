@@ -5,7 +5,7 @@
 *[:link: Софья Пешехонова](https://github.com/sofiapeshekhonova)*  
 *[:link: Стас Пройдаков](https://github.com/sasketeen)*  
 *[:link: Борис Зашляпин](https://github.com/elrouss)*  
-*[:link: Констанатин Филяев](https://github.com/uzornakovre)*
+*[:link: Константин Филяев](https://github.com/uzornakovre)*
 ______
 
 Независимый фестиваль драматургии **Любимовка** — это некоммерческий международный проект русскоязычных драматургов. Сайт проекта разрабатывается студентами **Яндекс Практикума**. **Любимовка** продолжает традицию фестиваля, который в первые годы своего существования проходил в подмосковной усадьбе Константина Станиславского Любимовка.
@@ -33,4 +33,4 @@ ______
 [:link: Открыть макет в Figma](https://www.figma.com/file/sPmrkcsXbuuHC24zIRktfJ/lubimovka-(pr.page)?node-id=0%3A1)
 ------
 
-[![Скриншот страницы](https://i.ibb.co/k4kRrrN/2022-10-29-19-30-49.png)](https://Kumiho1.github.io/lubimovka/)
+[![Скриншот страницы](https://i.ibb.co/1mSPHv9/2022-10-29-19-30-49.jpg)](https://Kumiho1.github.io/lubimovka/)
