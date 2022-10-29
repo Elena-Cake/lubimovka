@@ -1,0 +1,25 @@
+.perfomance-card {
+  max-width: 420px;
+  width: calc(364px + 56 * ((100vw - 414px)/(1440 - 414)));
+  position: relative;
+  display: grid;
+  grid-template: repeat(4, auto) / min-content 1fr;
+  column-gap: 31px;
+  grid-template-areas:
+  "image info"
+  "image info"
+  "image info"
+  ". links";
+}
+
+@media screen and (max-width: 767px) {
+  .perfomance-card {
+    margin: 0 auto;
+    column-gap: 29px;
+    grid-template-areas:
+  "image info"
+  "image info"
+  "image info"
+  "links links";
+  }
+}

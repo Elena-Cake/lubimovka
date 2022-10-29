@@ -1,0 +1,10 @@
+.footer__link {
+  text-decoration: underline rgba(36, 36, 36, 0);
+  text-decoration-skip-ink: none;
+  color: inherit;
+  transition: text-decoration-color .4s ease;
+}
+
+.footer__link:hover {
+  text-decoration-color: rgba(36, 36, 36, 1);
+}

@@ -1,0 +1,12 @@
+.intro__picture {
+  width: 100%;
+  height: 100%;
+  grid-area: image;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 425px) {
+  .intro__picture {
+    height: 450px;
+  }
+}

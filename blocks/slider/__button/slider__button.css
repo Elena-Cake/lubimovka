@@ -1,0 +1,23 @@
+.slider__button {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  margin: 0;
+
+}
+.slider__button:not(:last-of-type) {
+  margin-right: 20px;
+}
+.splide:not(.is-overflow) .slider__button {
+  display: none;
+}
+.slider__button:disabled .buttons__right-arrow{
+  transition: none;
+  background-color: inherit;
+}
+.slider__button:disabled .buttons__right-arrow:hover::after{
+  display: none;
+}
+.slider__button:disabled .buttons__right-arrow:hover .buttons__link-arrow{
+  fill: inherit;
+}

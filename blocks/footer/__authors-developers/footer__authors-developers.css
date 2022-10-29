@@ -1,0 +1,10 @@
+.footer__authors-developers {
+  margin: 0;
+  max-width: 207px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__authors-developers {
+    max-width: 254px;
+  }
+}

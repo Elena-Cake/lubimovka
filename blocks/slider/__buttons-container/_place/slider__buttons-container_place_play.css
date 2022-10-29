@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+    .slider__buttons-container_place_play {
+  display: flex;
+    }
+  }

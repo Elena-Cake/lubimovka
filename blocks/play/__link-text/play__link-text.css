@@ -1,0 +1,12 @@
+.play__link-text {
+    color: #242424;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    transition: all .5s ease;
+}
+
+.play__link:hover .play__link-text {
+    color: #fff;
+}

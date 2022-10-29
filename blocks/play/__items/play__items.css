@@ -1,0 +1,17 @@
+.play__items {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    gap: calc(100% * 30/1320);
+    max-width: 1320px;
+    width: 100%;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+@media screen and (max-width: 1279px){
+    .play__items {
+        margin: 0 0 0 6%;
+        width: 94%;
+    }
+}

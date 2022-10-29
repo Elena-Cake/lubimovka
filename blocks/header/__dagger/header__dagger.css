@@ -1,0 +1,18 @@
+.header__dagger {
+  width: 1.74vw;
+  height: 1.74vw;
+}
+
+@media screen and (min-width: 1440px) {
+  .header__dagger {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__dagger {
+    width: 25px;
+    height: 25px;
+  }
+}

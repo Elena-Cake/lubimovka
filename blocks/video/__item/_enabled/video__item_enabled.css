@@ -1,0 +1,7 @@
+.video__item_enabled {
+  cursor: pointer;
+}
+
+.video__item_enabled .video__button {
+  display: block;
+}

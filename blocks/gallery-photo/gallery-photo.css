@@ -1,0 +1,25 @@
+.gallery-photo {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(359px, 1fr));
+  gap: 1px;
+  grid-template-rows: auto;
+  margin: 42px auto 0;
+}
+
+@media screen and (max-width: 767px) {
+  .gallery-photo {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2px;
+    column-gap: 3px;
+    margin-top: 22px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .gallery-photo {
+    grid-template-rows: repeat(4, minmax(10%, 141px));
+  /* понять почему не работает min */
+  }
+}

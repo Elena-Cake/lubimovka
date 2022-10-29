@@ -1,0 +1,11 @@
+.video__container_type_simple {
+  padding-top: 45px;
+  padding-bottom: 58px;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .video__container_type_simple {
+    padding-bottom: 55px;
+  }
+}

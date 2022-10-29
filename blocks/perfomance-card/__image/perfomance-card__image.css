@@ -1,0 +1,8 @@
+.perfomance-card__image {
+  grid-area: image;
+  max-width: 120px;
+  max-height: 160px;
+  width: calc(92px + 28 * ((100vw - 414px)/(1440 - 414)));
+  height: calc(123px + 38 * ((100vw - 414px)/(1440 - 414)));
+  object-fit: cover;
+}

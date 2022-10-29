@@ -1,0 +1,14 @@
+.footer__partners-heading {
+  margin: 6px 0 0;
+  padding: 0;
+  max-width: 145px;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__partners-heading {
+    display: none;
+  }
+}

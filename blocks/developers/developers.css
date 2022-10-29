@@ -1,0 +1,8 @@
+.developers {
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 55.5px 0;
+    overflow: hidden;
+  }
+

@@ -1,0 +1,28 @@
+.footer__navigation {
+  grid-area: navigation;
+  display: grid;
+  grid-template-columns: 81px 87px 212px;
+  grid-template-areas:
+    'site fest projects';
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__navigation {
+    justify-content: flex-end;
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__navigation {
+    padding-bottom: 84px;
+    padding-left: 29px;
+    grid-template-columns: 48.5% 48.5%;
+    column-gap: 3%;
+    grid-template-areas:
+    'site fest'
+    'projects projects';
+    justify-content: center;
+  }
+}

@@ -1,0 +1,15 @@
+.video__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 650px) {
+  .video__list {
+    justify-content: flex-start;
+    margin-top: 32px;
+  }
+}

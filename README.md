@@ -1,19 +1,20 @@
 Хай! поехали)
 
-секции:
+брейки: 
+        425px 
+        767px 
+        1023px 
+        1279px
 
-heder
-intro
-about
-feelings
-(feelings-two)
-(feelings-three)
-galary
-performances
-(performances-two)
-(performances-three)
-play
-characters
-reference
-cooperation
-footer
+@media screen and (max-width: 425px){
+    
+}
+@media screen and (max-width: 767px){
+    
+}
+@media screen and (max-width: 1023px){
+    
+}
+@media screen and (max-width: 1279px){
+    
+}

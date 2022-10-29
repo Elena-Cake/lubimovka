@@ -9,4 +9,8 @@ Thumbs.db
 
 # Вспомогательные файлы
 *.log*
+<<<<<<< HEAD
 node_modules/
+=======
+node_modules/
+>>>>>>> 4f68a895fc221327e79b0c12f03879684678950f

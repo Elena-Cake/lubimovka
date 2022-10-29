@@ -1,0 +1,15 @@
+.cooperation__link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  transition: all .4s ease;
+}
+
+.cooperation__link:hover {
+  background: #242424;
+  color: #fff;
+  text-decoration-color: #242424;
+}

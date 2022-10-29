@@ -1,0 +1,19 @@
+.footer__link-authors {
+  color: inherit;
+  text-decoration: none;
+  transition: all .4s ease;
+}
+
+.footer__link-authors:hover {
+  background: #242424;
+  color: #fff;
+  text-decoration: #242424;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link-authors {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  }
+}
+

@@ -1,0 +1,11 @@
+.video__description {
+  font-feature-settings: 'ss01' on;
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .video__description {
+    width: calc(100% * 366/414);
+  }
+}

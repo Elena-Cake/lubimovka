@@ -1,0 +1,30 @@
+.play__link {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px 18px;
+    border-top: #242424 1px solid;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    background-image: linear-gradient(#242424, #242424);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+}
+
+.play__item:hover .play__link {
+    opacity: 1;
+}
+
+.play__link:hover {
+    background-size: 100% 100%;
+}
+
+.play__link:hover .arrow{
+    fill: #fff;
+}
+
+@media screen and (max-width: 1279px){
+    .play__link {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,23 @@
+.buttons__close-icon {
+  height: 36px;
+  width: 37px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  background-image: url(../../../images/esc.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  z-index: 1;
+}
+
+.buttons__close-icon:hover {
+  background-color: #504d4da1;
+  background-image: url(../../../images/esc-white.png);
+}
+

@@ -1,0 +1,15 @@
+.cooperation__title {
+  max-width: 516px;
+  margin: 0 0 0 27px;
+  font-size: 36px;
+  line-height: calc(38 / 36 * 100%);
+}
+
+@media screen and (max-width: 767px) {
+  .cooperation__title {
+    max-width: 335px;
+    margin-left: 30px;
+    font-size: 28px;
+    line-height: calc(32 / 28 * 100%);
+  }
+}

@@ -1,0 +1,10 @@
+.persons__name {
+  width: 64px;
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  margin: 12px 0 0;
+}

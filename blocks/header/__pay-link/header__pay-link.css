@@ -1,0 +1,46 @@
+.header__pay-link {
+  height: 2.08vw;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.97vw;
+  line-height: 1.74vw;
+  color: #242424;
+  padding: 0 0.7vw;
+  align-self: flex-end;
+  margin: 0 0.7vw 0.9vw 0.56vw;
+  display: flex;
+  text-transform: uppercase;
+  transition: all .4s ease;
+}
+
+.header__pay-link:hover {
+  background: #242424;
+  color: #fff;
+}
+
+.header__pay-link:hover .header__dagger-rect {
+  fill: #fff;
+  transition: all .4s ease;
+}
+
+@media screen and (min-width: 1440px) {
+  .header__pay-link {
+    height: 30px;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0 10.1px;
+    margin: 0 10px 14px 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__pay-link {
+    height: 30px;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0 10.1px;
+    align-self: center;
+    margin: 0 auto;
+  }
+}

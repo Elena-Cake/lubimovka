@@ -1,0 +1,23 @@
+.footer__links_content_partners {
+  display: flex;
+  flex-direction: row;
+  column-gap: 29px;
+  margin: 6px 0 0;
+}
+
+@media screen and (max-width: 849px) {
+  .footer__links_content_partners {
+    column-gap: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__links_content_partners {
+    margin: 0;
+    padding: 8px 0 119px 47px;
+    max-width: 541px;
+    row-gap: 82px;
+    column-gap: 66px;
+    justify-content: space-between;
+  }
+}

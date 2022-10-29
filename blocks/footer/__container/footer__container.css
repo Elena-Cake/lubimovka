@@ -1,0 +1,49 @@
+.footer__container {
+  margin-right: calc(92 / 1440 * 100%);
+  margin-left: calc(32 / 1440 * 100%);
+  padding: 42px 0 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: calc(17 / 14 * 100%);
+  display: grid;
+  grid-template-columns: 179px 569px minmax(430px, 568px);
+  grid-template-rows: minmax(101px, auto) minmax(223px, auto) minmax(126px, auto);
+  grid-template-areas:
+    'logo partners partners'
+    '. address navigation'
+    '. copyright authors';
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__container {
+    grid-template-columns: 179px minmax(80px, 380px) minmax(330px, 610px);
+  }
+}
+
+@media screen and (max-width: 849px) {
+  .footer__container {
+    grid-template-areas:
+    'logo partners partners'
+    'address navigation navigation'
+    'copyright copyright authors';
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__container {
+    margin-right: calc(63 / 414 * 100%);
+    margin-left: calc(26 / 414 * 100%);
+    justify-content: center;
+    grid-template-columns: minmax(298px, 593px);
+    grid-template-rows: auto;
+    grid-template-areas:
+    'logo'
+    'address'
+    'navigation'
+    'partners'
+    'copyright'
+    'authors';
+    font-size: 18px;
+    line-height: calc(23 / 18 * 100%);
+  }
+}

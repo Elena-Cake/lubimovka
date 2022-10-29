@@ -1,0 +1,13 @@
+.video__container_type_extended {
+  padding-top: 98px;
+  padding-bottom: 77px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+  .video__container_type_extended {
+    padding-top: 57px;
+    padding-bottom: 55px;
+  }
+}

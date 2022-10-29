@@ -1,0 +1,12 @@
+.section-title_place_perfomances {
+  max-width: 450px;
+  width: calc(350px + 100 * ((100vw - 414px)/(1440 - 414)));
+  margin: 0 24.79% 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .section-title_place_perfomances {
+    margin-bottom: 34px;
+    margin-left: calc(100% * 24/414);
+}
+}
