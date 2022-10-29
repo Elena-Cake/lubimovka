@@ -1,4 +1,4 @@
-var splide = new Splide( '#splide_place_perfomances', {
+var splidePerfomances = new Splide( '#splide_place_perfomances', {
   perPage: 3,
   focus: 0,
   autoWidth: true,
@@ -11,9 +11,9 @@ var splide = new Splide( '#splide_place_perfomances', {
     },
   }
 } );
-splide.mount();
+splidePerfomances.mount();
 
-var splide2 = new Splide( '#splide_place_gallery-popup', {
+var splideGallery = new Splide( '#splide_place_gallery-popup', {
   perPage: 1,
   pagination: false,
   rewind: true,
