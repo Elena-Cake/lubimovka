@@ -37,7 +37,7 @@ var splidePlay = new Splide( '#splide_place_play', {
 } );
 splidePlay.mount();
 
-var splide = new Splide( '#splide_place_video-m', {
+var splideVideoM = new Splide( '#splide_place_video-m', {
   perPage: 2,
   arrowPath: '0',
   focus: 0,
@@ -47,9 +47,9 @@ var splide = new Splide( '#splide_place_video-m', {
   snap: false,
   arrows: false,
 } );
-splide.mount();
+splideVideoM.mount();
 
-var splide = new Splide( '#splide_place_video-l', {
+var splideVideoL = new Splide( '#splide_place_video-l', {
   perPage: 3,
   focus: 0,
   autoWidth: true,
@@ -58,4 +58,4 @@ var splide = new Splide( '#splide_place_video-l', {
   snap: false,
   arrows: false,
 } );
-splide.mount();
+splideVideoL.mount();
