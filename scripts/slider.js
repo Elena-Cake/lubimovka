@@ -32,7 +32,7 @@ var splidePlay = new Splide( '#splide_place_play', {
   snap: false,
   mediaQuery: 'min',
   breakpoints: {
-    1279: {
+    1350: {
       destroy: true,
     },
   }

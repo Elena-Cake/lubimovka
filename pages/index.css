@@ -98,6 +98,7 @@
 /* play */
 @import url(../blocks/play/play.css);
 @import url(../blocks/play/__title/play__title.css);
+@import url(../blocks/play/__arrow-buttons/play__arrow-buttons.css);
 @import url(../blocks/play/__items/play__items.css);
 @import url(../blocks/play/__item/play__item.css);
 @import url(../blocks/play/__cart/play__cart.css);

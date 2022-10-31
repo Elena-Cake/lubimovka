@@ -1,0 +1,9 @@
+.play__arrow-buttons {
+    display: none;
+}
+
+@media screen and (max-width: 1350px){
+    .play__arrow-buttons {
+        display: flex;
+    }
+}
