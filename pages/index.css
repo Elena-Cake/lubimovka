@@ -62,6 +62,7 @@
 @import url(../blocks/video/__button/video__button.css);
 @import url(../blocks/video/__description/video__description.css);
 @import url(../blocks/video/__list/video__list.css);
+@import url(../blocks/video/__list/_size/video__list_size_l.css);
 @import url(../blocks/video/__list-item/video__list-item.css);
 
 
@@ -109,6 +110,7 @@
 @import url(../blocks/play/__link-text/play__link-text.css);
 @import url(../blocks/play/__arrow/play__arrow.css);
 @import url(../blocks/slider/__buttons-container/_place/slider__buttons-container_place_play.css);
+@import url(../blocks/play/__buttons-container/play__buttons-container.css);
 
 /* persons */
 @import url(../blocks/persons/persons.css);
@@ -118,6 +120,7 @@
 @import url(../blocks/persons/__photo/persons__photo.css);
 @import url(../blocks/persons/__name/persons__name.css);
 @import url(../blocks/persons/__subtitle/persons__subtitle.css);
+@import url(../blocks/persons/__buttons-container/persons__buttons-container.css);
 
 
 /* reference */
@@ -163,6 +166,7 @@
 @import url(../blocks/footer/__authors-developers/footer__authors-developers.css);
 @import url(../blocks/footer/__icon-decorative/footer__icon-decorative.css);
 @import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__text/_accent/footer__text_accent_underline.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
