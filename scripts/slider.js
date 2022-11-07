@@ -1,3 +1,4 @@
+// section Perfomances
 var splidePerfomances = new Splide( '#splide_place_perfomances', {
   perPage: 3,
   focus: 0,
@@ -13,6 +14,7 @@ var splidePerfomances = new Splide( '#splide_place_perfomances', {
 } );
 splidePerfomances.mount();
 
+// section Gallery
 var splideGallery = new Splide( '#splide_place_gallery-popup', {
   perPage: 1,
   pagination: false,
@@ -21,6 +23,7 @@ var splideGallery = new Splide( '#splide_place_gallery-popup', {
   gap: '20px'
 } );
 
+// section Play
 var splidePlay = new Splide( '#splide_place_play', {
   perPage: 5,
   focus: 0,
@@ -33,7 +36,7 @@ var splidePlay = new Splide( '#splide_place_play', {
 } );
 
 splidePlay.on( 'overflow', function ( isOverflow ) {
-  splide.options = {
+  splidePlay.options = {
     arrows    : isOverflow,
     pagination: isOverflow,
     drag      : isOverflow,
@@ -42,6 +45,7 @@ splidePlay.on( 'overflow', function ( isOverflow ) {
 
 splidePlay.mount();
 
+// section Persons
 var splidePersons = new Splide( '#splide_place_persons', {
  type: 'loop',
  perPage: 4,
@@ -62,6 +66,7 @@ var splidePersons = new Splide( '#splide_place_persons', {
 } );
 splidePersons.mount();
 
+// section Video
 var splideVideoM = new Splide( '#splide_place_video-m', {
   perPage: 2,
   arrowPath: '0',
