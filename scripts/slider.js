@@ -29,12 +29,17 @@ var splidePlay = new Splide( '#splide_place_play', {
   drag: 'free',
   snap: false,
   mediaQuery: 'min',
-  breakpoints: {
-    1279: {
-      destroy: true,
-    },
-  }
+
 } );
+
+splidePlay.on( 'overflow', function ( isOverflow ) {
+  splide.options = {
+    arrows    : isOverflow,
+    pagination: isOverflow,
+    drag      : isOverflow,
+  };
+} );
+
 splidePlay.mount();
 
 var splidePersons = new Splide( '#splide_place_persons', {
