@@ -36,7 +36,7 @@ var splidePlay = new Splide( '#splide_place_play', {
 } );
 
 splidePlay.on( 'overflow', function ( isOverflow ) {
-  splide.options = {
+  splidePlay.options = {
     arrows    : isOverflow,
     pagination: isOverflow,
     drag      : isOverflow,
