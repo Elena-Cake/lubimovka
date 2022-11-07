@@ -1,3 +1,9 @@
 .play {
     padding: 46.5px 0 61.5px;
 }
+
+@media screen and (max-width: 1440px){
+    .play {
+        margin: 0 0 0 10px;
+    }
+}
