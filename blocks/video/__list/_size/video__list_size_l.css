@@ -1,0 +1,5 @@
+@media screen and (max-width: 1024px) {
+  .video__list_size_l {
+    justify-content: flex-start;
+  }
+}
