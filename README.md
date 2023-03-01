@@ -29,8 +29,8 @@ ______
 *Проект не входит в программу обучения и является дополнительным* 
 ______
 
-[:link: Просмотреть страницу в GitHub Pages](https://Kumiho1.github.io/lubimovka/)   
+[:link: Просмотреть страницу в GitHub Pages](https://elena-cake.github.io/lubimovka/)   
 [:link: Открыть макет в Figma](https://www.figma.com/file/sPmrkcsXbuuHC24zIRktfJ/lubimovka-(pr.page)?node-id=0%3A1)
 ------
 
-[![Скриншот страницы](https://i.ibb.co/1mSPHv9/2022-10-29-19-30-49.jpg)](https://Kumiho1.github.io/lubimovka/)
+[![Скриншот страницы](https://i.ibb.co/1mSPHv9/2022-10-29-19-30-49.jpg)](https://elena-cake.github.io/lubimovka/)
