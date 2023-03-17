@@ -1,6 +1,6 @@
 # :small_orange_diamond: Страница для сайта фестиваля драматургии "Любимовка"
 *Командная работа студентов Яндекс Практикума:*  
-*[:link: Елена Свешникова](https://github.com/Kumiho1) (team leader)*  
+*[:link: Елена Свешникова](https://github.com/elena-cake) (team leader)*  
 *[:link: Александр Товченников](https://github.com/yryryk)*  
 *[:link: Софья Пешехонова](https://github.com/sofiapeshekhonova)*  
 *[:link: Стас Пройдаков](https://github.com/sasketeen)*  
